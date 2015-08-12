@@ -1,0 +1,231 @@
+body 
+  width: 1920px
+  height: 1080px
+  margin: 0
+  padding: 0
+  overflow: hidden
+
+.faixa 
+  background-color: #4EB9BE
+  width: 100%
+  position: absolute
+  transition: all 1s
+  height: 10%
+  box-shadow: 0px 5px 20px gray
+  bottom: -20%
+  animation-duration: 8s
+
+.anim-1
+  @extend .faixa
+  animation-name: animacao1
+
+@-webkit-keyframes animacao1
+  0%
+    bottom: -20%
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  8%
+    bottom: 90%
+  92%
+    bottom: 90%
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  100%
+    bottom: -20%
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+
+.anim-2
+  @extend .faixa
+  animation-name: animacao2
+  animation-delay: .1s
+
+@-webkit-keyframes animacao2
+  0%
+    bottom: -30%
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  8%
+    bottom: 80%
+  12%
+    box-shadow: 0px 0px 0px gray
+  87.66%
+    box-shadow: 0px 0px 0px gray
+  88.66%
+    bottom: 80%
+    box-shadow: 0px 5px 20px gray
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  96.66%
+    bottom: -30%
+
+.anim-3
+  @extend .faixa
+  animation-name: animacao3
+  animation-delay: .2s
+
+@-webkit-keyframes animacao3
+  0%
+    bottom: -40%
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  8%
+    bottom: 70%
+  12%
+    box-shadow: 0px 0px 0px gray
+  84.32%
+    box-shadow: 0px 0px 0px gray
+  85.32%
+    bottom: 70%
+    box-shadow: 0px 5px 20px gray
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  92.32%
+    bottom: -40%
+
+.anim-4
+  @extend .faixa
+  animation-name: animacao4
+  animation-delay: .3s
+
+@-webkit-keyframes animacao4
+  0%
+    bottom: -50%
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  8%
+    bottom: 60%
+  12%
+    box-shadow: 0px 0px 0px gray
+  80.98%
+    box-shadow: 0px 0px 0px gray
+  81.98%
+    bottom: 60%
+    box-shadow: 0px 5px 20px gray
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  89.98%
+    bottom: -50%
+
+.anim-5
+  @extend .faixa
+  animation-name: animacao5
+  animation-delay: .4s
+
+@-webkit-keyframes animacao5
+  0%
+    bottom: -60%
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  8%
+    bottom: 50%
+  12%
+    box-shadow: 0px 0px 0px gray
+  77.64%
+    box-shadow: 0px 0px 0px gray
+  78.64%
+    bottom: 50%
+    box-shadow: 0px 5px 20px gray
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  86.64%
+    bottom: -60%
+
+.anim-6
+  @extend .faixa
+  animation-name: animacao6
+  animation-delay: .5s
+
+@-webkit-keyframes animacao6
+  0%
+    bottom: -70%
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  8%
+    bottom: 40%
+  12%
+    box-shadow: 0px 0px 0px gray
+  74.3%
+    box-shadow: 0px 0px 0px gray
+  75.3%
+    bottom: 40%
+    box-shadow: 0px 5px 20px gray
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  83.3%
+    bottom: -70%
+
+.anim-7
+  @extend .faixa
+  animation-name: animacao7
+  animation-delay: .6s
+
+@-webkit-keyframes animacao7
+  0%
+    bottom: -80%
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  8%
+    bottom: 30%
+  12%
+    box-shadow: 0px 0px 0px gray
+  70.96%
+    box-shadow: 0px 0px 0px gray
+  71.96%
+    bottom: 30%
+    box-shadow: 0px 5px 20px gray
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  79.96%
+    bottom: -80%
+
+.anim-8
+  @extend .faixa
+  animation-name: animacao8
+  animation-delay: .7s
+
+@-webkit-keyframes animacao8
+  0%
+    bottom: -90%
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  8%
+    bottom: 20%
+  12%
+    box-shadow: 0px 0px 0px gray
+  67.62%
+    box-shadow: 0px 0px 0px gray
+  68.62%
+    bottom: 20%
+    box-shadow: 0px 5px 20px gray
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  76.62%
+    bottom: -90%
+
+.anim-9
+  @extend .faixa
+  animation-name: animacao9
+  animation-delay: .8s
+
+@-webkit-keyframes animacao9
+  0%
+    bottom: -100%
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  8%
+    bottom: 10%
+  12%
+    box-shadow: 0px 0px 0px gray
+  64.28%
+    box-shadow: 0px 0px 0px gray
+  65.28%
+    bottom: 10%
+    box-shadow: 0px 5px 20px gray
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  73.28%
+    bottom: -100%
+
+.anim-10
+  @extend .faixa
+  animation-name: animacao10
+  animation-delay: .9s
+
+@-webkit-keyframes animacao10
+  0%
+    bottom: -110%
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  8%
+    bottom: 0%
+  12%
+    box-shadow: 0px 0px 0px gray
+  60.94%
+    box-shadow: 0px 0px 0px gray
+  61.94%
+    bottom: 0%
+    box-shadow: 0px 5px 20px gray
+    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+  69.94%
+    bottom: -110%
