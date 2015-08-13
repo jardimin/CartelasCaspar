@@ -1,4 +1,4 @@
-.duration, h1, h2, .faixa, .anim-1, .anim-2, .anim-3, .anim-4, .anim-5, .anim-6, .anim-7, .anim-8, .anim-9, .anim-10, .faixinha, .anim-11, .anim-12, .anim-13, .anim-14, .anim-15, .anim-16, .anim-17, .anim-18, .anim-19, .imagem.back, .imagem img {
+.duration, h1, h2, .faixa, .anim-1, .anim-2, .anim-3, .anim-4, .anim-5, .anim-6, .anim-7, .anim-8, .anim-9, .anim-10, .faixinha, .anim-11, .anim-12, .anim-13, .anim-14, .anim-15, .anim-16, .anim-17, .anim-18, .anim-19, .imagem.back, .imagem.front {
   -webkit-animation-duration: 6s;
   position: absolute; }
 
@@ -89,56 +89,54 @@ h2 {
 
 .imagem {
   overflow: hidden;
+  border-radius: 100px;
   width: 200px;
   height: 200px;
   position: absolute;
   left: 10px;
   bottom: 0px; }
   .imagem.back {
-    -webkit-animation-name: animagemback;
+    -webkit-animation-name: animagem;
     -webkit-animation-delay: 0.1s;
+    transform: scale(0);
+    opacity: 0;
     background-color: black;
     width: 210px;
     height: 210px;
-    -webkit-clip-path: circle(0px at center); }
+    border-radius: 105px; }
+  .imagem.front {
+    -webkit-animation-name: animagem;
+    transform: scale(0);
+    opacity: 0;
+    left: 15px;
+    bottom: 5px; }
   .imagem img {
     position: absolute;
-    -webkit-animation-name: animagem;
     bottom: 27px;
     left: 5px;
-    width: 200px;
-    -webkit-clip-path: circle(0px at center); }
+    width: 200px; }
 
-@-webkit-keyframes animagemback {
-  0% {
-    -webkit-clip-path: circle(0px at center); }
-  15% {
-    -webkit-clip-path: circle(0px at center);
-    -webkit-animation-timing-function: cubic-bezier(0.17, 0.29, 0.62, 1.24); }
-  20% {
-    -webkit-clip-path: circle(105px at center); }
-  85% {
-    -webkit-clip-path: circle(105px at center);
-    -webkit-animation-timing-function: cubic-bezier(0.36, 0.06, 1, 0.67); }
-  90% {
-    -webkit-clip-path: circle(0px at center); }
-  100% {
-    -webkit-clip-path: circle(0px at center); } }
 @-webkit-keyframes animagem {
   0% {
-    -webkit-clip-path: circle(0px at center); }
+    transform: scale(0); }
   15% {
-    -webkit-clip-path: circle(0px at center);
+    opacity: 0;
+    transform: scale(0);
     -webkit-animation-timing-function: cubic-bezier(0.17, 0.29, 0.62, 1.24); }
+  16% {
+    opacity: 1; }
   20% {
-    -webkit-clip-path: circle(100px at center); }
+    transform: scale(1); }
   85% {
-    -webkit-clip-path: circle(100px at center);
+    transform: scale(1);
     -webkit-animation-timing-function: cubic-bezier(0.36, 0.06, 1, 0.67); }
+  89% {
+    opacity: 1; }
   90% {
-    -webkit-clip-path: circle(0px at center); }
+    transform: scale(0);
+    opacity: 0; }
   100% {
-    -webkit-clip-path: circle(0px at center); } }
+    transform: scale(0); } }
 .anim-1 {
   -webkit-animation-name: animacao1; }
 
