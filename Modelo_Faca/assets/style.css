@@ -1,5 +1,5 @@
 .duration, h1, h2, .faixa, .anim-1, .anim-2, .anim-3, .anim-4, .anim-5, .anim-6, .anim-7, .anim-8, .anim-9, .anim-10, .faixinha, .anim-11, .anim-12, .anim-13, .anim-14, .anim-15, .anim-16, .anim-17, .anim-18, .anim-19, .imagem.back, .imagem img {
-  animation-duration: 6s;
+  -webkit-animation-duration: 6s;
   position: absolute; }
 
 body {
@@ -16,23 +16,23 @@ h1 {
   text-shadow: 3px 3px 10px #4d4d4d;
   color: white;
   left: 350px;
-  animation-name: chamada; }
+  -webkit-animation-name: chamada; }
 
 @-webkit-keyframes chamada {
   0% {
     left: 300px;
     text-shadow: 3px 3px 10px #666666;
-    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
     opacity: 0; }
   16% {
     opacity: 0;
-    animation-timing-function: linear; }
+    -webkit-animation-timing-function: linear; }
   24% {
     opacity: 1;
-    animation-timing-function: linear; }
+    -webkit-animation-timing-function: linear; }
   80% {
     opacity: 1;
-    animation-timing-function: linear; }
+    -webkit-animation-timing-function: linear; }
   85% {
     opacity: 0; }
   100% {
@@ -46,23 +46,23 @@ h2 {
   text-shadow: 3px 3px 10px #4d4d4d;
   color: white;
   left: 400px;
-  animation-name: chamada2; }
+  -webkit-animation-name: chamada2; }
 
 @-webkit-keyframes chamada2 {
   0% {
     left: 400px;
     text-shadow: 3px 3px 10px #666666;
-    animation-timing-function: linear;
+    -webkit-animation-timing-function: linear;
     opacity: 0; }
   16% {
     opacity: 0;
-    animation-timing-function: linear; }
+    -webkit-animation-timing-function: linear; }
   24% {
     opacity: 1;
-    animation-timing-function: linear; }
+    -webkit-animation-timing-function: linear; }
   80% {
     opacity: 1;
-    animation-timing-function: linear; }
+    -webkit-animation-timing-function: linear; }
   85% {
     opacity: 0; }
   100% {
@@ -95,15 +95,15 @@ h2 {
   left: 10px;
   bottom: 0px; }
   .imagem.back {
-    animation-name: animagemback;
-    animation-delay: 0.1s;
+    -webkit-animation-name: animagemback;
+    -webkit-animation-delay: 0.1s;
     background-color: black;
     width: 210px;
     height: 210px;
     -webkit-clip-path: circle(0px at center); }
   .imagem img {
     position: absolute;
-    animation-name: animagem;
+    -webkit-animation-name: animagem;
     bottom: 27px;
     left: 5px;
     width: 200px;
@@ -114,12 +114,12 @@ h2 {
     -webkit-clip-path: circle(0px at center); }
   15% {
     -webkit-clip-path: circle(0px at center);
-    animation-timing-function: cubic-bezier(0.17, 0.29, 0.62, 1.24); }
+    -webkit-animation-timing-function: cubic-bezier(0.17, 0.29, 0.62, 1.24); }
   20% {
     -webkit-clip-path: circle(105px at center); }
   85% {
     -webkit-clip-path: circle(105px at center);
-    animation-timing-function: cubic-bezier(0.36, 0.06, 1, 0.67); }
+    -webkit-animation-timing-function: cubic-bezier(0.36, 0.06, 1, 0.67); }
   90% {
     -webkit-clip-path: circle(0px at center); }
   100% {
@@ -129,301 +129,301 @@ h2 {
     -webkit-clip-path: circle(0px at center); }
   15% {
     -webkit-clip-path: circle(0px at center);
-    animation-timing-function: cubic-bezier(0.17, 0.29, 0.62, 1.24); }
+    -webkit-animation-timing-function: cubic-bezier(0.17, 0.29, 0.62, 1.24); }
   20% {
     -webkit-clip-path: circle(100px at center); }
   85% {
     -webkit-clip-path: circle(100px at center);
-    animation-timing-function: cubic-bezier(0.36, 0.06, 1, 0.67); }
+    -webkit-animation-timing-function: cubic-bezier(0.36, 0.06, 1, 0.67); }
   90% {
     -webkit-clip-path: circle(0px at center); }
   100% {
     -webkit-clip-path: circle(0px at center); } }
 .anim-1 {
-  animation-name: animacao1; }
+  -webkit-animation-name: animacao1; }
 
 @-webkit-keyframes animacao1 {
   0% {
     left: 100%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     left: 0; }
   94% {
     left: 0%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   100% {
     left: 100%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-2 {
-  animation-name: animacao2;
-  animation-delay: 0.1s; }
+  -webkit-animation-name: animacao2;
+  -webkit-animation-delay: 0.1s; }
 
 @-webkit-keyframes animacao2 {
   0% {
     left: 106%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     left: 6%; }
   91.66% {
     left: 6%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   97.66% {
     left: 106%; } }
 .anim-3 {
-  animation-name: animacao3;
-  animation-delay: 0.2s; }
+  -webkit-animation-name: animacao3;
+  -webkit-animation-delay: 0.2s; }
 
 @-webkit-keyframes animacao3 {
   0% {
     left: 112%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     left: 12%; }
   89.32% {
     left: 12%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   94.32% {
     left: 112%; } }
 .anim-4 {
-  animation-name: animacao4;
-  animation-delay: 0.3s; }
+  -webkit-animation-name: animacao4;
+  -webkit-animation-delay: 0.3s; }
 
 @-webkit-keyframes animacao4 {
   0% {
     left: 118%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     left: 18%; }
   86.98% {
     left: 18%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   92.98% {
     left: 118%; } }
 .anim-5 {
-  animation-name: animacao5;
-  animation-delay: 0.4s; }
+  -webkit-animation-name: animacao5;
+  -webkit-animation-delay: 0.4s; }
 
 @-webkit-keyframes animacao5 {
   0% {
     left: 124%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     left: 24%; }
   84.64% {
     left: 24%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   90.64% {
     left: 124%; } }
 .anim-6 {
-  animation-name: animacao6;
-  animation-delay: 0.5s; }
+  -webkit-animation-name: animacao6;
+  -webkit-animation-delay: 0.5s; }
 
 @-webkit-keyframes animacao6 {
   0% {
     left: 130%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     left: 30%; }
   82.3% {
     left: 30%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   88.3% {
     left: 130%; } }
 .anim-7 {
-  animation-name: animacao7;
-  animation-delay: 0.6s; }
+  -webkit-animation-name: animacao7;
+  -webkit-animation-delay: 0.6s; }
 
 @-webkit-keyframes animacao7 {
   0% {
     left: 136%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     left: 36%; }
   79.96% {
     left: 36%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   85.96% {
     left: 136%; } }
 .anim-8 {
-  animation-name: animacao8;
-  animation-delay: 0.7s; }
+  -webkit-animation-name: animacao8;
+  -webkit-animation-delay: 0.7s; }
 
 @-webkit-keyframes animacao8 {
   0% {
     left: 142%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     left: 42%; }
   77.62% {
     left: 42%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   83.62% {
     left: 142%; } }
 .anim-9 {
-  animation-name: animacao9;
-  animation-delay: 0.8s; }
+  -webkit-animation-name: animacao9;
+  -webkit-animation-delay: 0.8s; }
 
 @-webkit-keyframes animacao9 {
   0% {
     left: 148%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     left: 48%; }
   75.28% {
     left: 48%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   81.28% {
     left: 148%; } }
 .anim-10 {
-  animation-name: animacao10;
+  -webkit-animation-name: animacao10;
   border-right: 2px solid black;
-  animation-delay: 0.9s; }
+  -webkit-animation-delay: 0.9s; }
 
 @-webkit-keyframes animacao10 {
   0% {
     left: 154%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     left: 54%; }
   72.94% {
     left: 54%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   78.94% {
     left: 154%; } }
 .anim-11 {
   border-right: 2px solid #2d7679;
-  animation-name: animacao11; }
+  -webkit-animation-name: animacao11; }
 
 @-webkit-keyframes animacao11 {
   0% {
     right: 100%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     right: 46%; }
   94% {
     right: 46%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   100% {
     right: 100%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-12 {
-  animation-name: animacao12;
-  animation-delay: 0.1s; }
+  -webkit-animation-name: animacao12;
+  -webkit-animation-delay: 0.1s; }
 
 @-webkit-keyframes animacao12 {
   0% {
     right: 103%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     right: 52%; }
   91.66% {
     right: 52%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   97.66% {
     right: 103%; } }
 .anim-13 {
-  animation-name: animacao13;
-  animation-delay: 0.2s; }
+  -webkit-animation-name: animacao13;
+  -webkit-animation-delay: 0.2s; }
 
 @-webkit-keyframes animacao13 {
   0% {
     right: 116%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     right: 58%; }
   89.32% {
     right: 58%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   94.32% {
     right: 116%; } }
 .anim-14 {
-  animation-name: animacao14;
-  animation-delay: 0.3s; }
+  -webkit-animation-name: animacao14;
+  -webkit-animation-delay: 0.3s; }
 
 @-webkit-keyframes animacao14 {
   0% {
     right: 109%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     right: 64%; }
   86.98% {
     right: 64%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   92.98% {
     right: 109%; } }
 .anim-15 {
-  animation-name: animacao15;
-  animation-delay: 0.4s; }
+  -webkit-animation-name: animacao15;
+  -webkit-animation-delay: 0.4s; }
 
 @-webkit-keyframes animacao15 {
   0% {
     right: 112%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     right: 70%; }
   84.64% {
     right: 70%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   90.64% {
     right: 112%; } }
 .anim-16 {
-  animation-name: animacao16;
-  animation-delay: 0.5s; }
+  -webkit-animation-name: animacao16;
+  -webkit-animation-delay: 0.5s; }
 
 @-webkit-keyframes animacao16 {
   0% {
     right: 115%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     right: 76%; }
   82.3% {
     right: 76%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   88.3% {
     right: 115%; } }
 .anim-17 {
-  animation-name: animacao17;
-  animation-delay: 0.6s; }
+  -webkit-animation-name: animacao17;
+  -webkit-animation-delay: 0.6s; }
 
 @-webkit-keyframes animacao17 {
   0% {
     right: 118%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     right: 82%; }
   79.96% {
     right: 82%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   85.96% {
     right: 118%; } }
 .anim-18 {
-  animation-name: animacao18;
-  animation-delay: 0.7s; }
+  -webkit-animation-name: animacao18;
+  -webkit-animation-delay: 0.7s; }
 
 @-webkit-keyframes animacao18 {
   0% {
     right: 121%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     right: 88%; }
   77.62% {
     right: 88%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   83.62% {
     right: 121%; } }
 .anim-19 {
-  animation-name: animacao19;
-  animation-delay: 0.8s; }
+  -webkit-animation-name: animacao19;
+  -webkit-animation-delay: 0.8s; }
 
 @-webkit-keyframes animacao19 {
   0% {
     right: 124%;
-    animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
+    -webkit-animation-timing-function: cubic-bezier(0.51, 0.22, 0.62, 0.86); }
   6% {
     right: 94%; }
   75.28% {
     right: 94%;
-    animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
+    -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); }
   81.28% {
     right: 124%; } }
 
