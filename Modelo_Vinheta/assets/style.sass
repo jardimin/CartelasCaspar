@@ -98,7 +98,7 @@ h1
   @extend .duration
   background-color: #00ff00
   border-radius: 800px
-  box-shadow: 0 0 35px black
+  box-shadow: 0 0 100px black
   overflow: hidden
   width: 1600px
   height: 1600px
@@ -107,6 +107,8 @@ h1
   bottom: -550px
   -webkit-animation-name: animagem
   transform: scale(0)
+  img
+    height: 100%
 
 @-webkit-keyframes animagem
   0%
@@ -123,13 +125,6 @@ h1
     -webkit-transform: scale(0)
   100%
     -webkit-transform: scale(0)
-
-//   img
-//     @extend .duration
-//     box-shadow: 0 0 15px black
-//     -webkit-animation-name: animagem
-//     height: 1600px
-//     -webkit-clip-path: circle(0px at center)
 
 // @-webkit-keyframes animagem
 //   0%
