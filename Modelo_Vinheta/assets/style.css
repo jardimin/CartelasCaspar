@@ -1,4 +1,4 @@
-.duration, .atracao, h1, .faixa, .anim-1, .anim-2, .anim-3, .anim-4, .anim-5, .anim-6, .anim-7, .anim-8, .anim-9, .anim-10, .imagem img {
+.duration, .atracao, h1, .faixa, .anim-1, .anim-2, .anim-3, .anim-4, .anim-5, .anim-6, .anim-7, .anim-8, .anim-9, .anim-10, .imagem {
   -webkit-animation-duration: 8s;
   position: absolute; }
 
@@ -88,33 +88,33 @@ h1 {
   bottom: -20%; }
 
 .imagem {
+  background-color: #00ff00;
+  border-radius: 800px;
+  box-shadow: 0 0 35px black;
   overflow: hidden;
   width: 1600px;
   height: 1600px;
   position: absolute;
-  right: -300px;
-  bottom: -550px; }
-  .imagem img {
-    box-shadow: 0 0 15px black;
-    -webkit-animation-name: animagem;
-    height: 1600px;
-    -webkit-clip-path: circle(0px at center); }
+  right: -550px;
+  bottom: -550px;
+  -webkit-animation-name: animagem;
+  transform: scale(0); }
 
 @-webkit-keyframes animagem {
   0% {
-    -webkit-clip-path: circle(0px at center); }
+    -webkit-transform: scale(0); }
   15% {
-    -webkit-clip-path: circle(0px at center);
+    -webkit-transform: scale(0);
     -webkit-animation-timing-function: cubic-bezier(0.17, 0.29, 0.62, 1.24); }
   20% {
-    -webkit-clip-path: circle(800px at center); }
+    -webkit-transform: scale(1); }
   85% {
-    -webkit-clip-path: circle(800px at center);
+    -webkit-transform: scale(1);
     -webkit-animation-timing-function: cubic-bezier(0.36, 0.06, 1, 0.67); }
   90% {
-    -webkit-clip-path: circle(0px at center); }
+    -webkit-transform: scale(0); }
   100% {
-    -webkit-clip-path: circle(0px at center); } }
+    -webkit-transform: scale(0); } }
 .anim-1 {
   -webkit-animation-name: animacao1; }
 
