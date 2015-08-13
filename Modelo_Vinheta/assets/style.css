@@ -88,7 +88,7 @@ h1 {
   bottom: -20%; }
 
 .imagem {
-  background-color: #00ff00;
+  background-color: transparent;
   border-radius: 800px;
   box-shadow: 0 0 100px black;
   overflow: hidden;
