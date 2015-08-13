@@ -89,6 +89,7 @@ h1 {
 
 .imagem {
   background-color: transparent;
+  opacity: 0;
   border-radius: 800px;
   box-shadow: 0 0 100px black;
   overflow: hidden;
@@ -104,16 +105,23 @@ h1 {
 
 @-webkit-keyframes animagem {
   0% {
-    -webkit-transform: scale(0); }
+    -webkit-transform: scale(0);
+    opacity: 0; }
   15% {
     -webkit-transform: scale(0);
+    opacity: 0;
     -webkit-animation-timing-function: cubic-bezier(0.17, 0.29, 0.62, 1.24); }
+  16% {
+    opacity: 1; }
   20% {
     -webkit-transform: scale(1); }
   85% {
     -webkit-transform: scale(1);
     -webkit-animation-timing-function: cubic-bezier(0.36, 0.06, 1, 0.67); }
+  89% {
+    opacity: 1; }
   90% {
+    opacity: 0;
     -webkit-transform: scale(0); }
   100% {
     -webkit-transform: scale(0); } }
