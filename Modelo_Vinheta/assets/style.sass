@@ -1,3 +1,9 @@
+$cor1: #ac6562
+
+.duration 
+  animation-duration: 8s
+  position: absolute
+
 body 
   width: 1920px
   height: 1080px
@@ -5,15 +11,118 @@ body
   padding: 0
   overflow: hidden
 
+.atracao
+  @extend .duration
+  position: absolute
+  opacity: 0
+  left: 1%
+  text-align: center
+  top: 30%
+  width: 45%
+  animation-name: atracao
+  h2
+    font-size: 5em
+    font-weight: 900
+    margin-top: 0
+    margin-bottom: 4%
+    -webkit-text-stroke-color: darken( $cor1, 30% )
+    -webkit-text-stroke-width: 1px
+    text-shadow: 2px 2px 8px darken( $cor1, 30% )
+    color: $cor1
+  h3
+    font-size: 3.8em
+    margin: 0
+  span
+    margin: 0
+    text-align: left !important
+    padding: 0
+    font-size: 2.2em
+  p
+    font-size: 3em
+    margin: 0
+    top: 180px
+    padding: 0
+
+@-webkit-keyframes atracao
+  0%
+    opacity: 0
+  23%
+    opacity: 0
+  26%
+    opacity: 1
+  80%
+    opacity: 1
+  83%
+    opacity: 0
+  100%
+    opacity: 0
+
+h1
+  @extend .duration
+  font-family: sans-serif
+  font-size: 7em
+  top: -35px
+  color: white
+  text-shadow: 0 0 10px black
+  -webkit-text-stroke-color: gray
+  -webkit-text-stroke-width: 1px
+  left: -550px
+  animation-name: chamada
+
+@-webkit-keyframes chamada
+  0%
+    left: -550px
+  16%
+    left: -550px
+    animation-timing-function: cubic-bezier(.09,.36,.26,.99)
+  23%
+    left: 200px
+    animation-timing-function: linear
+  81%
+    left: 300px
+    animation-timing-function: cubic-bezier(.64,0,1,.36)
+  85%
+    left: 1980px
+  100%
+    left: 1980px
+
 .faixa 
+  @extend .duration
   background-color: #4EB9BE
   width: 100%
-  position: absolute
-  transition: all 1s
   height: 10%
   box-shadow: 0px 5px 20px gray
   bottom: -20%
-  animation-duration: 8s
+
+.imagem
+  overflow: hidden
+  width: 1600px
+  height: 1600px
+  position: absolute
+  right: -300px
+  bottom: -550px
+  img
+    @extend .duration
+    box-shadow: 0 0 15px black
+    animation-name: animagem
+    height: 1600px
+    -webkit-clip-path: circle(0px at center)
+
+@-webkit-keyframes animagem
+  0%
+    -webkit-clip-path: circle(0px at center)
+  15%
+    -webkit-clip-path: circle(0px at center)
+    animation-timing-function: cubic-bezier(.17,.29,.62,1.24)
+  20%
+    -webkit-clip-path: circle(800px at center)
+  85%
+    -webkit-clip-path: circle(800px at center)
+    animation-timing-function: cubic-bezier(.36,.06,1,.67)
+  90%
+    -webkit-clip-path: circle(0px at center)
+  100%
+    -webkit-clip-path: circle(0px at center)
 
 .anim-1
   @extend .faixa
@@ -23,14 +132,14 @@ body
   0%
     bottom: -20%
     animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  8%
+  6%
     bottom: 90%
-  92%
+  94%
     bottom: 90%
-    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+    animation-timing-function: cubic-bezier(.23,.24,.63,.69)
   100%
     bottom: -20%
-    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+    animation-timing-function: cubic-bezier(.23,.24,.63,.69)
 
 .anim-2
   @extend .faixa
@@ -41,17 +150,17 @@ body
   0%
     bottom: -30%
     animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  8%
+  6%
     bottom: 80%
   12%
     box-shadow: 0px 0px 0px gray
-  87.66%
+  90.66%
     box-shadow: 0px 0px 0px gray
-  88.66%
+  91.66%
     bottom: 80%
     box-shadow: 0px 5px 20px gray
-    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  96.66%
+    animation-timing-function: cubic-bezier(.23,.24,.63,.69)
+  97.66%
     bottom: -30%
 
 .anim-3
@@ -63,17 +172,17 @@ body
   0%
     bottom: -40%
     animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  8%
+  6%
     bottom: 70%
   12%
     box-shadow: 0px 0px 0px gray
-  84.32%
+  88.32%
     box-shadow: 0px 0px 0px gray
-  85.32%
+  89.32%
     bottom: 70%
     box-shadow: 0px 5px 20px gray
-    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  92.32%
+    animation-timing-function: cubic-bezier(.23,.24,.63,.69)
+  94.32%
     bottom: -40%
 
 .anim-4
@@ -85,17 +194,17 @@ body
   0%
     bottom: -50%
     animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  8%
+  6%
     bottom: 60%
   12%
     box-shadow: 0px 0px 0px gray
-  80.98%
+  85.98%
     box-shadow: 0px 0px 0px gray
-  81.98%
+  86.98%
     bottom: 60%
     box-shadow: 0px 5px 20px gray
-    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  89.98%
+    animation-timing-function: cubic-bezier(.23,.24,.63,.69)
+  92.98%
     bottom: -50%
 
 .anim-5
@@ -107,17 +216,17 @@ body
   0%
     bottom: -60%
     animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  8%
+  6%
     bottom: 50%
   12%
     box-shadow: 0px 0px 0px gray
-  77.64%
+  83.64%
     box-shadow: 0px 0px 0px gray
-  78.64%
+  84.64%
     bottom: 50%
     box-shadow: 0px 5px 20px gray
-    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  86.64%
+    animation-timing-function: cubic-bezier(.23,.24,.63,.69)
+  90.64%
     bottom: -60%
 
 .anim-6
@@ -129,17 +238,17 @@ body
   0%
     bottom: -70%
     animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  8%
+  6%
     bottom: 40%
   12%
     box-shadow: 0px 0px 0px gray
-  74.3%
+  81.3%
     box-shadow: 0px 0px 0px gray
-  75.3%
+  82.3%
     bottom: 40%
     box-shadow: 0px 5px 20px gray
-    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  83.3%
+    animation-timing-function: cubic-bezier(.23,.24,.63,.69)
+  88.3%
     bottom: -70%
 
 .anim-7
@@ -151,17 +260,17 @@ body
   0%
     bottom: -80%
     animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  8%
+  6%
     bottom: 30%
   12%
     box-shadow: 0px 0px 0px gray
-  70.96%
+  78.96%
     box-shadow: 0px 0px 0px gray
-  71.96%
+  79.96%
     bottom: 30%
     box-shadow: 0px 5px 20px gray
-    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  79.96%
+    animation-timing-function: cubic-bezier(.23,.24,.63,.69)
+  85.96%
     bottom: -80%
 
 .anim-8
@@ -173,17 +282,17 @@ body
   0%
     bottom: -90%
     animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  8%
+  6%
     bottom: 20%
   12%
     box-shadow: 0px 0px 0px gray
-  67.62%
+  76.62%
     box-shadow: 0px 0px 0px gray
-  68.62%
+  77.62%
     bottom: 20%
     box-shadow: 0px 5px 20px gray
-    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  76.62%
+    animation-timing-function: cubic-bezier(.23,.24,.63,.69)
+  83.62%
     bottom: -90%
 
 .anim-9
@@ -195,17 +304,17 @@ body
   0%
     bottom: -100%
     animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  8%
+  6%
     bottom: 10%
   12%
     box-shadow: 0px 0px 0px gray
-  64.28%
+  74.28%
     box-shadow: 0px 0px 0px gray
-  65.28%
+  75.28%
     bottom: 10%
     box-shadow: 0px 5px 20px gray
-    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  73.28%
+    animation-timing-function: cubic-bezier(.23,.24,.63,.69)
+  81.28%
     bottom: -100%
 
 .anim-10
@@ -217,15 +326,15 @@ body
   0%
     bottom: -110%
     animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  8%
+  6%
     bottom: 0%
   12%
     box-shadow: 0px 0px 0px gray
-  60.94%
+  71.94%
     box-shadow: 0px 0px 0px gray
-  61.94%
+  72.94%
     bottom: 0%
     box-shadow: 0px 5px 20px gray
-    animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  69.94%
+    animation-timing-function: cubic-bezier(.23,.24,.63,.69)
+  78.94%
     bottom: -110%
