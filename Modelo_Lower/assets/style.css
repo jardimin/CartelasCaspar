@@ -111,10 +111,7 @@ h2 {
     left: 15px;
     bottom: 5px; }
   .imagem img {
-    position: absolute;
-    bottom: 27px;
-    left: 5px;
-    width: 250px; }
+    height: 100%; }
 
 @-webkit-keyframes animagem {
   0% {
