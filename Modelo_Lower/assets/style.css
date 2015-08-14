@@ -99,7 +99,7 @@ h2 {
     -webkit-animation-name: animagem;
     -webkit-animation-delay: 0.1s;
     transform: scale(0);
-    opacity: 0;
+    opacity: 1;
     background-color: black;
     width: 260px;
     height: 260px;
@@ -107,7 +107,7 @@ h2 {
   .imagem.front {
     -webkit-animation-name: animagem;
     transform: scale(0);
-    opacity: 0;
+    opacity: 1;
     left: 15px;
     bottom: 5px; }
   .imagem img {
@@ -119,8 +119,6 @@ h2 {
 @-webkit-keyframes animagem {
   0% {
     transform: scale(0); }
-  9.99% {
-    opacity: 0; }
   10% {
     opacity: 1;
     transform: scale(0);
@@ -133,8 +131,6 @@ h2 {
   90% {
     transform: scale(0);
     opacity: 1; }
-  90.01% {
-    opacity: 0; }
   100% {
     transform: scale(0); } }
 .anim-1 {
