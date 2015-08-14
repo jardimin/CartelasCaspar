@@ -119,21 +119,21 @@ h2 {
 @-webkit-keyframes animagem {
   0% {
     transform: scale(0); }
+  9.99% {
+    opacity: 0; }
   10% {
-    opacity: 0;
+    opacity: 1;
     transform: scale(0);
     -webkit-animation-timing-function: cubic-bezier(0.17, 0.29, 0.62, 1.24); }
-  10.01% {
-    opacity: 1; }
   25% {
     transform: scale(1); }
   75% {
     transform: scale(1);
     -webkit-animation-timing-function: cubic-bezier(0.36, 0.06, 1, 0.67); }
-  89.99% {
-    opacity: 1; }
   90% {
     transform: scale(0);
+    opacity: 1; }
+  90.01% {
     opacity: 0; }
   100% {
     transform: scale(0); } }
