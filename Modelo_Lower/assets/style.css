@@ -118,9 +118,6 @@ h2 {
 
 @-webkit-keyframes animagem {
   0% {
-    transform: scale(0); }
-  10% {
-    opacity: 1;
     transform: scale(0);
     -webkit-animation-timing-function: cubic-bezier(0.17, 0.29, 0.62, 1.24); }
   25% {
