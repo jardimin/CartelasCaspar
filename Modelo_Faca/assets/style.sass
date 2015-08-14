@@ -3,6 +3,7 @@ $cor2: white
 $cor3: #ac6562
 $border1: 2px solid darken( $cor1, 60% )
 $border2: 2px solid darken( $cor1, 20% )
+$num: 20
 
 .duration 
   -webkit-animation-duration: 12s
@@ -88,7 +89,7 @@ h2
   border-top: $border1
   border-bottom: $border1
   background-color: $cor1
-  width: 5%
+  width: 100 / $num
   height: 15%
   bottom: 5%
   left: 100%
@@ -98,7 +99,7 @@ h2
   border-bottom: $border2
   border-top: $border2
   background-color: desaturate( $cor1, 25% )
-  width: 5%
+  width: 100 / $num
   height: 9%
   bottom: 2%
   right: 100%
@@ -156,6 +157,7 @@ h2
   100%
     transform: scale(0)
 
+.anim
 
 .anim-1
   @extend .faixa
