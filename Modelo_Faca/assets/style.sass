@@ -3,7 +3,8 @@ $cor2: white
 $cor3: #ac6562
 $border1: 2px solid darken( $cor1, 60% )
 $border2: 2px solid darken( $cor1, 20% )
-$num: 20
+$num: 100
+$width: 100% / $num
 
 .duration 
   -webkit-animation-duration: 12s
@@ -19,69 +20,65 @@ body
 h1
   @extend .duration
   font-size: 4em
-  bottom: 75px
+  bottom: 50px
   opacity: 0
   text-shadow: 3px 3px 10px lighten(black, 30%) 
   color: lighten($cor2, 5%)
   // -webkit-text-stroke-color: lighten($cor2, 5%)
   // -webkit-text-stroke-width: 1px
-  left: 350px
+  left: 765px
   -webkit-animation-name: chamada
 
 @-webkit-keyframes chamada
   0%
-    left: 300px
     text-shadow: 3px 3px 10px lighten(black, 40%) 
     -webkit-animation-timing-function: linear
     opacity: 0
-  16%
+  6%
     opacity: 0
     -webkit-animation-timing-function: linear
-  24%
+  14%
     opacity: 1
     -webkit-animation-timing-function: linear
-  80%
+  90%
     opacity: 1
     -webkit-animation-timing-function: linear
-  85%
+  95%
     opacity: 0
   100%
     text-shadow: 0px 0px 10px lighten(black, 40%) 
-    left: 400px
     opacity: 0
 
 h2
   @extend .duration
   font-size: 2em
-  bottom: 20px
+  bottom: 0px
   opacity: 0
   text-shadow: 3px 3px 10px lighten(black, 30%) 
   color: lighten($cor2, 5%)
   // -webkit-text-stroke-color: lighten($cor2, 5%)
   // -webkit-text-stroke-width: 1px
-  left: 400px
+  left: 825px
   -webkit-animation-name: chamada2
 
 @-webkit-keyframes chamada2
   0%
-    left: 400px
     text-shadow: 3px 3px 10px lighten(black, 40%) 
     -webkit-animation-timing-function: linear
     opacity: 0
-  16%
+  6%
     opacity: 0
     -webkit-animation-timing-function: linear
-  24%
+  14%
     opacity: 1
     -webkit-animation-timing-function: linear
-  80%
+  90%
     opacity: 1
     -webkit-animation-timing-function: linear
-  85%
+  95%
     opacity: 0
   100%
     text-shadow: 0px 0px 10px lighten(black, 40%) 
-    left: 300px
     opacity: 0
 
 .faixa 
@@ -89,9 +86,9 @@ h2
   border-top: $border1
   border-bottom: $border1
   background-color: $cor1
-  width: 100 / $num
+  width: $width
   height: 15%
-  bottom: 5%
+  bottom: 3%
   left: 100%
 
 .faixinha 
@@ -99,9 +96,9 @@ h2
   border-bottom: $border2
   border-top: $border2
   background-color: desaturate( $cor1, 25% )
-  width: 100 / $num
-  height: 9%
-  bottom: 2%
+  width: $width
+  height: 7%
+  bottom: 0%
   right: 100%
 
 .imagem
@@ -116,19 +113,20 @@ h2
     @extend .duration
     -webkit-animation-name: animagem
     -webkit-animation-delay: .1s
+    box-shadow: 0 0 10px black
     transform: scale(0)
     opacity: 0
     background-color: black
-    width: 210px
-    height: 210px
-    border-radius: 105px
+    width: 202px
+    height: 202px
+    border-radius: 101px
   &.front
     @extend .duration
     -webkit-animation-name: animagem
     transform: scale(0)
     opacity: 0
-    left: 15px
-    bottom: 5px
+    left: 7px
+    bottom: 1px
   img
     position: absolute
     bottom: 27px
@@ -138,347 +136,59 @@ h2
 @-webkit-keyframes animagem
   0%
     transform: scale(0)
-  15%
+  5%
     opacity: 0
     transform: scale(0)
     -webkit-animation-timing-function: cubic-bezier(.17,.29,.62,1.24)
-  16%
+  5.01%
     opacity: 1
-  20%
-    transform: scale(1)
-  85%
-    transform: scale(1)
+  8%
+    transform: scale(2)
+  92%
+    transform: scale(2)
     -webkit-animation-timing-function: cubic-bezier(.36,.06,1,.67)
-  89%
+  94.99%
     opacity: 1
-  90%
+  95%
     transform: scale(0)
     opacity: 0
   100%
     transform: scale(0)
 
-.anim
+@for $n from 1 through $num
+  .anim-#{$n}
+    @extend .faixa
+    -webkit-animation-name: animacao1-#{$n}
+    -webkit-animation-delay: (.004s * $n ) - .004s
 
-.anim-1
-  @extend .faixa
-  -webkit-animation-name: animacao1
+  @-webkit-keyframes animacao1-#{$n}
+    0%
+      left: (100% - $width) + ($width * $n)
+      -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+    2%
+      left: -((0% + $width) - ($width * $n))
+    98%
+      left: -((0% + $width) - ($width * $n))
+      -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+    100%
+      left: -((50% - $width) + ($width * $n))
+      -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
 
-@-webkit-keyframes animacao1
-  0%
-    left: 100%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  .5%
-    left: 0
-  99.5%
-    left: 0%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  100%
-    left: 100%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
+@for $n from 1 through $num
+  .anim2-#{$n}
+    @extend .faixinha
+    -webkit-animation-name: animacao2-#{$n}
+    -webkit-animation-delay: (.004s * $n ) - .004s
 
-.anim-2
-  @extend .faixa
-  -webkit-animation-name: animacao2
-  -webkit-animation-delay: .1s
-
-@-webkit-keyframes animacao2
-  0%
-    left: 105%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  .5%
-    left: 5%
-  98.16%
-    left: 5%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  98.66%
-    left: 105%
-
-.anim-3
-  @extend .faixa
-  -webkit-animation-name: animacao3
-  -webkit-animation-delay: .2s
-
-@-webkit-keyframes animacao3
-  0%
-    left: 110%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  .5%
-    left: 10%
-  94.82%
-    left: 10%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  96.32%
-    left: 110%
-
-.anim-4
-  @extend .faixa
-  -webkit-animation-name: animacao4
-  -webkit-animation-delay: .3s
-
-@-webkit-keyframes animacao4
-  0%
-    left: 115%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  .5%
-    left: 15%
-  94.48%
-    left: 15%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  94.98%
-    left: 115%
-
-.anim-5
-  @extend .faixa
-  -webkit-animation-name: animacao5
-  -webkit-animation-delay: .4s
-
-@-webkit-keyframes animacao5
-  0%
-    left: 120%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  .5%
-    left: 20%
-  93.14%
-    left: 20%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  93.64%
-    left: 120%
-
-.anim-6
-  @extend .faixa
-  -webkit-animation-name: animacao6
-  -webkit-animation-delay: .5s
-
-@-webkit-keyframes animacao6
-  0%
-    left: 125%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  .5%
-    left: 25%
-  91.8%
-    left: 25%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  92.3%
-    left: 125%
-
-.anim-7
-  @extend .faixa
-  -webkit-animation-name: animacao7
-  -webkit-animation-delay: .6s
-
-@-webkit-keyframes animacao7
-  0%
-    left: 130%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  .5%
-    left: 30%
-  83.96%
-    left: 30%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  85.96%
-    left: 130%
-
-.anim-8
-  @extend .faixa
-  -webkit-animation-name: animacao8
-  -webkit-animation-delay: .7s
-
-@-webkit-keyframes animacao8
-  0%
-    left: 135%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  .5%
-    left: 35%
-  81.62%
-    left: 35%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  83.62%
-    left: 135%
-
-.anim-9
-  @extend .faixa
-  -webkit-animation-name: animacao9
-  -webkit-animation-delay: .8s
-
-@-webkit-keyframes animacao9
-  0%
-    left: 140%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  .5%
-    left: 40%
-  79.28%
-    left: 40%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  81.28%
-    left: 140%
-
-.anim-10
-  @extend .faixa
-  -webkit-animation-name: animacao10
-  border-right: $border1
-  -webkit-animation-delay: .9s
-
-@-webkit-keyframes animacao10
-  0%
-    left: 145%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  .5%
-    left: 45%
-  76.94%
-    left: 45%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  78.94%
-    left: 145%
-
-.anim-11
-  @extend .faixinha
-  -webkit-animation-name: animacao11
-
-@-webkit-keyframes animacao11
-  0%
-    right: 100%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  6%
-    right: 46%
-  94%
-    right: 46%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  100%
-    right: 100%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-
-.anim-12
-  @extend .faixinha
-  -webkit-animation-name: animacao12
-  -webkit-animation-delay: .1s
-
-@-webkit-keyframes animacao12
-  0%
-    right: 103%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  6%
-    right: 52%
-  91.66%
-    right: 52%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  97.66%
-    right: 103%
-
-.anim-13
-  @extend .faixinha
-  -webkit-animation-name: animacao13
-  -webkit-animation-delay: .2s
-
-@-webkit-keyframes animacao13
-  0%
-    right: 116%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  6%
-    right: 58%
-  89.32%
-    right: 58%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  94.32%
-    right: 116%
-
-.anim-14
-  @extend .faixinha
-  -webkit-animation-name: animacao14
-  -webkit-animation-delay: .3s
-
-@-webkit-keyframes animacao14
-  0%
-    right: 109%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  6%
-    right: 64%
-  86.98%
-    right: 64%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  92.98%
-    right: 109%
-
-.anim-15
-  @extend .faixinha
-  -webkit-animation-name: animacao15
-  -webkit-animation-delay: .4s
-
-@-webkit-keyframes animacao15
-  0%
-    right: 112%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  6%
-    right: 70%
-  84.64%
-    right: 70%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  90.64%
-    right: 112%
-
-.anim-16
-  @extend .faixinha
-  -webkit-animation-name: animacao16
-  -webkit-animation-delay: .5s
-
-@-webkit-keyframes animacao16
-  0%
-    right: 115%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  6%
-    right: 76%
-  82.3%
-    right: 76%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  88.3%
-    right: 115%
-
-.anim-17
-  @extend .faixinha
-  -webkit-animation-name: animacao17
-  -webkit-animation-delay: .6s
-
-@-webkit-keyframes animacao17
-  0%
-    right: 118%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  6%
-    right: 82%
-  79.96%
-    right: 82%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  85.96%
-    right: 118%
-
-.anim-18
-  @extend .faixinha
-  -webkit-animation-name: animacao18
-  -webkit-animation-delay: .7s
-
-@-webkit-keyframes animacao18
-  0%
-    right: 121%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  6%
-    right: 88%
-  77.62%
-    right: 88%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  83.62%
-    right: 121%
-
-.anim-19
-  @extend .faixinha
-  -webkit-animation-name: animacao19
-  -webkit-animation-delay: .8s
-
-@-webkit-keyframes animacao19
-  0%
-    right: 124%
-    -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
-  6%
-    right: 94%
-  75.28%
-    right: 94%
-    -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
-  81.28%
-    right: 124%
+  @-webkit-keyframes animacao2-#{$n}
+    0%
+      right: (100% - $width) + ($width * $n)
+      -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+    2%
+      right: -((0% + $width) - ($width * $n))
+    98%
+      right: -((0% + $width) - ($width * $n))
+      -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+    100%
+      right: -((50% - $width) + ($width * $n))
+      -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
