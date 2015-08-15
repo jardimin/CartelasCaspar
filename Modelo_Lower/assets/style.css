@@ -153,7 +153,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-2 {
   -webkit-animation-name: animacao1-2;
-  -webkit-animation-delay: 0.004s; }
+  -webkit-animation-delay: 0.007s; }
 
 @-webkit-keyframes animacao1-2 {
   0% {
@@ -169,7 +169,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-3 {
   -webkit-animation-name: animacao1-3;
-  -webkit-animation-delay: 0.008s; }
+  -webkit-animation-delay: 0.014s; }
 
 @-webkit-keyframes animacao1-3 {
   0% {
@@ -185,7 +185,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-4 {
   -webkit-animation-name: animacao1-4;
-  -webkit-animation-delay: 0.012s; }
+  -webkit-animation-delay: 0.021s; }
 
 @-webkit-keyframes animacao1-4 {
   0% {
@@ -201,7 +201,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-5 {
   -webkit-animation-name: animacao1-5;
-  -webkit-animation-delay: 0.016s; }
+  -webkit-animation-delay: 0.028s; }
 
 @-webkit-keyframes animacao1-5 {
   0% {
@@ -217,7 +217,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-6 {
   -webkit-animation-name: animacao1-6;
-  -webkit-animation-delay: 0.02s; }
+  -webkit-animation-delay: 0.035s; }
 
 @-webkit-keyframes animacao1-6 {
   0% {
@@ -233,7 +233,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-7 {
   -webkit-animation-name: animacao1-7;
-  -webkit-animation-delay: 0.024s; }
+  -webkit-animation-delay: 0.042s; }
 
 @-webkit-keyframes animacao1-7 {
   0% {
@@ -249,7 +249,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-8 {
   -webkit-animation-name: animacao1-8;
-  -webkit-animation-delay: 0.028s; }
+  -webkit-animation-delay: 0.049s; }
 
 @-webkit-keyframes animacao1-8 {
   0% {
@@ -265,7 +265,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-9 {
   -webkit-animation-name: animacao1-9;
-  -webkit-animation-delay: 0.032s; }
+  -webkit-animation-delay: 0.056s; }
 
 @-webkit-keyframes animacao1-9 {
   0% {
@@ -281,7 +281,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-10 {
   -webkit-animation-name: animacao1-10;
-  -webkit-animation-delay: 0.036s; }
+  -webkit-animation-delay: 0.063s; }
 
 @-webkit-keyframes animacao1-10 {
   0% {
@@ -297,7 +297,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-11 {
   -webkit-animation-name: animacao1-11;
-  -webkit-animation-delay: 0.04s; }
+  -webkit-animation-delay: 0.07s; }
 
 @-webkit-keyframes animacao1-11 {
   0% {
@@ -313,7 +313,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-12 {
   -webkit-animation-name: animacao1-12;
-  -webkit-animation-delay: 0.044s; }
+  -webkit-animation-delay: 0.077s; }
 
 @-webkit-keyframes animacao1-12 {
   0% {
@@ -329,7 +329,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-13 {
   -webkit-animation-name: animacao1-13;
-  -webkit-animation-delay: 0.048s; }
+  -webkit-animation-delay: 0.084s; }
 
 @-webkit-keyframes animacao1-13 {
   0% {
@@ -345,7 +345,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-14 {
   -webkit-animation-name: animacao1-14;
-  -webkit-animation-delay: 0.052s; }
+  -webkit-animation-delay: 0.091s; }
 
 @-webkit-keyframes animacao1-14 {
   0% {
@@ -361,7 +361,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-15 {
   -webkit-animation-name: animacao1-15;
-  -webkit-animation-delay: 0.056s; }
+  -webkit-animation-delay: 0.098s; }
 
 @-webkit-keyframes animacao1-15 {
   0% {
@@ -377,7 +377,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-16 {
   -webkit-animation-name: animacao1-16;
-  -webkit-animation-delay: 0.06s; }
+  -webkit-animation-delay: 0.105s; }
 
 @-webkit-keyframes animacao1-16 {
   0% {
@@ -393,7 +393,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-17 {
   -webkit-animation-name: animacao1-17;
-  -webkit-animation-delay: 0.064s; }
+  -webkit-animation-delay: 0.112s; }
 
 @-webkit-keyframes animacao1-17 {
   0% {
@@ -409,7 +409,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-18 {
   -webkit-animation-name: animacao1-18;
-  -webkit-animation-delay: 0.068s; }
+  -webkit-animation-delay: 0.119s; }
 
 @-webkit-keyframes animacao1-18 {
   0% {
@@ -425,7 +425,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-19 {
   -webkit-animation-name: animacao1-19;
-  -webkit-animation-delay: 0.072s; }
+  -webkit-animation-delay: 0.126s; }
 
 @-webkit-keyframes animacao1-19 {
   0% {
@@ -441,7 +441,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-20 {
   -webkit-animation-name: animacao1-20;
-  -webkit-animation-delay: 0.076s; }
+  -webkit-animation-delay: 0.133s; }
 
 @-webkit-keyframes animacao1-20 {
   0% {
@@ -457,7 +457,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-21 {
   -webkit-animation-name: animacao1-21;
-  -webkit-animation-delay: 0.08s; }
+  -webkit-animation-delay: 0.14s; }
 
 @-webkit-keyframes animacao1-21 {
   0% {
@@ -473,7 +473,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-22 {
   -webkit-animation-name: animacao1-22;
-  -webkit-animation-delay: 0.084s; }
+  -webkit-animation-delay: 0.147s; }
 
 @-webkit-keyframes animacao1-22 {
   0% {
@@ -489,7 +489,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-23 {
   -webkit-animation-name: animacao1-23;
-  -webkit-animation-delay: 0.088s; }
+  -webkit-animation-delay: 0.154s; }
 
 @-webkit-keyframes animacao1-23 {
   0% {
@@ -505,7 +505,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-24 {
   -webkit-animation-name: animacao1-24;
-  -webkit-animation-delay: 0.092s; }
+  -webkit-animation-delay: 0.161s; }
 
 @-webkit-keyframes animacao1-24 {
   0% {
@@ -521,7 +521,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-25 {
   -webkit-animation-name: animacao1-25;
-  -webkit-animation-delay: 0.096s; }
+  -webkit-animation-delay: 0.168s; }
 
 @-webkit-keyframes animacao1-25 {
   0% {
@@ -537,7 +537,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-26 {
   -webkit-animation-name: animacao1-26;
-  -webkit-animation-delay: 0.1s; }
+  -webkit-animation-delay: 0.175s; }
 
 @-webkit-keyframes animacao1-26 {
   0% {
@@ -553,7 +553,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-27 {
   -webkit-animation-name: animacao1-27;
-  -webkit-animation-delay: 0.104s; }
+  -webkit-animation-delay: 0.182s; }
 
 @-webkit-keyframes animacao1-27 {
   0% {
@@ -569,7 +569,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-28 {
   -webkit-animation-name: animacao1-28;
-  -webkit-animation-delay: 0.108s; }
+  -webkit-animation-delay: 0.189s; }
 
 @-webkit-keyframes animacao1-28 {
   0% {
@@ -585,7 +585,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-29 {
   -webkit-animation-name: animacao1-29;
-  -webkit-animation-delay: 0.112s; }
+  -webkit-animation-delay: 0.196s; }
 
 @-webkit-keyframes animacao1-29 {
   0% {
@@ -601,7 +601,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-30 {
   -webkit-animation-name: animacao1-30;
-  -webkit-animation-delay: 0.116s; }
+  -webkit-animation-delay: 0.203s; }
 
 @-webkit-keyframes animacao1-30 {
   0% {
@@ -617,7 +617,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-31 {
   -webkit-animation-name: animacao1-31;
-  -webkit-animation-delay: 0.12s; }
+  -webkit-animation-delay: 0.21s; }
 
 @-webkit-keyframes animacao1-31 {
   0% {
@@ -633,7 +633,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-32 {
   -webkit-animation-name: animacao1-32;
-  -webkit-animation-delay: 0.124s; }
+  -webkit-animation-delay: 0.217s; }
 
 @-webkit-keyframes animacao1-32 {
   0% {
@@ -649,7 +649,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-33 {
   -webkit-animation-name: animacao1-33;
-  -webkit-animation-delay: 0.128s; }
+  -webkit-animation-delay: 0.224s; }
 
 @-webkit-keyframes animacao1-33 {
   0% {
@@ -665,7 +665,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-34 {
   -webkit-animation-name: animacao1-34;
-  -webkit-animation-delay: 0.132s; }
+  -webkit-animation-delay: 0.231s; }
 
 @-webkit-keyframes animacao1-34 {
   0% {
@@ -681,7 +681,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-35 {
   -webkit-animation-name: animacao1-35;
-  -webkit-animation-delay: 0.136s; }
+  -webkit-animation-delay: 0.238s; }
 
 @-webkit-keyframes animacao1-35 {
   0% {
@@ -697,7 +697,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-36 {
   -webkit-animation-name: animacao1-36;
-  -webkit-animation-delay: 0.14s; }
+  -webkit-animation-delay: 0.245s; }
 
 @-webkit-keyframes animacao1-36 {
   0% {
@@ -713,7 +713,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-37 {
   -webkit-animation-name: animacao1-37;
-  -webkit-animation-delay: 0.144s; }
+  -webkit-animation-delay: 0.252s; }
 
 @-webkit-keyframes animacao1-37 {
   0% {
@@ -729,7 +729,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-38 {
   -webkit-animation-name: animacao1-38;
-  -webkit-animation-delay: 0.148s; }
+  -webkit-animation-delay: 0.259s; }
 
 @-webkit-keyframes animacao1-38 {
   0% {
@@ -745,7 +745,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-39 {
   -webkit-animation-name: animacao1-39;
-  -webkit-animation-delay: 0.152s; }
+  -webkit-animation-delay: 0.266s; }
 
 @-webkit-keyframes animacao1-39 {
   0% {
@@ -761,7 +761,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-40 {
   -webkit-animation-name: animacao1-40;
-  -webkit-animation-delay: 0.156s; }
+  -webkit-animation-delay: 0.273s; }
 
 @-webkit-keyframes animacao1-40 {
   0% {
@@ -777,7 +777,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-41 {
   -webkit-animation-name: animacao1-41;
-  -webkit-animation-delay: 0.16s; }
+  -webkit-animation-delay: 0.28s; }
 
 @-webkit-keyframes animacao1-41 {
   0% {
@@ -793,7 +793,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-42 {
   -webkit-animation-name: animacao1-42;
-  -webkit-animation-delay: 0.164s; }
+  -webkit-animation-delay: 0.287s; }
 
 @-webkit-keyframes animacao1-42 {
   0% {
@@ -809,7 +809,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-43 {
   -webkit-animation-name: animacao1-43;
-  -webkit-animation-delay: 0.168s; }
+  -webkit-animation-delay: 0.294s; }
 
 @-webkit-keyframes animacao1-43 {
   0% {
@@ -825,7 +825,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-44 {
   -webkit-animation-name: animacao1-44;
-  -webkit-animation-delay: 0.172s; }
+  -webkit-animation-delay: 0.301s; }
 
 @-webkit-keyframes animacao1-44 {
   0% {
@@ -841,7 +841,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-45 {
   -webkit-animation-name: animacao1-45;
-  -webkit-animation-delay: 0.176s; }
+  -webkit-animation-delay: 0.308s; }
 
 @-webkit-keyframes animacao1-45 {
   0% {
@@ -857,7 +857,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-46 {
   -webkit-animation-name: animacao1-46;
-  -webkit-animation-delay: 0.18s; }
+  -webkit-animation-delay: 0.315s; }
 
 @-webkit-keyframes animacao1-46 {
   0% {
@@ -873,7 +873,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-47 {
   -webkit-animation-name: animacao1-47;
-  -webkit-animation-delay: 0.184s; }
+  -webkit-animation-delay: 0.322s; }
 
 @-webkit-keyframes animacao1-47 {
   0% {
@@ -889,7 +889,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-48 {
   -webkit-animation-name: animacao1-48;
-  -webkit-animation-delay: 0.188s; }
+  -webkit-animation-delay: 0.329s; }
 
 @-webkit-keyframes animacao1-48 {
   0% {
@@ -905,7 +905,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-49 {
   -webkit-animation-name: animacao1-49;
-  -webkit-animation-delay: 0.192s; }
+  -webkit-animation-delay: 0.336s; }
 
 @-webkit-keyframes animacao1-49 {
   0% {
@@ -921,7 +921,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-50 {
   -webkit-animation-name: animacao1-50;
-  -webkit-animation-delay: 0.196s; }
+  -webkit-animation-delay: 0.343s; }
 
 @-webkit-keyframes animacao1-50 {
   0% {
@@ -937,7 +937,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-51 {
   -webkit-animation-name: animacao1-51;
-  -webkit-animation-delay: 0.2s; }
+  -webkit-animation-delay: 0.35s; }
 
 @-webkit-keyframes animacao1-51 {
   0% {
@@ -953,7 +953,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-52 {
   -webkit-animation-name: animacao1-52;
-  -webkit-animation-delay: 0.204s; }
+  -webkit-animation-delay: 0.357s; }
 
 @-webkit-keyframes animacao1-52 {
   0% {
@@ -969,7 +969,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-53 {
   -webkit-animation-name: animacao1-53;
-  -webkit-animation-delay: 0.208s; }
+  -webkit-animation-delay: 0.364s; }
 
 @-webkit-keyframes animacao1-53 {
   0% {
@@ -985,7 +985,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-54 {
   -webkit-animation-name: animacao1-54;
-  -webkit-animation-delay: 0.212s; }
+  -webkit-animation-delay: 0.371s; }
 
 @-webkit-keyframes animacao1-54 {
   0% {
@@ -1001,7 +1001,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-55 {
   -webkit-animation-name: animacao1-55;
-  -webkit-animation-delay: 0.216s; }
+  -webkit-animation-delay: 0.378s; }
 
 @-webkit-keyframes animacao1-55 {
   0% {
@@ -1017,7 +1017,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-56 {
   -webkit-animation-name: animacao1-56;
-  -webkit-animation-delay: 0.22s; }
+  -webkit-animation-delay: 0.385s; }
 
 @-webkit-keyframes animacao1-56 {
   0% {
@@ -1033,7 +1033,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-57 {
   -webkit-animation-name: animacao1-57;
-  -webkit-animation-delay: 0.224s; }
+  -webkit-animation-delay: 0.392s; }
 
 @-webkit-keyframes animacao1-57 {
   0% {
@@ -1049,7 +1049,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-58 {
   -webkit-animation-name: animacao1-58;
-  -webkit-animation-delay: 0.228s; }
+  -webkit-animation-delay: 0.399s; }
 
 @-webkit-keyframes animacao1-58 {
   0% {
@@ -1065,7 +1065,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-59 {
   -webkit-animation-name: animacao1-59;
-  -webkit-animation-delay: 0.232s; }
+  -webkit-animation-delay: 0.406s; }
 
 @-webkit-keyframes animacao1-59 {
   0% {
@@ -1081,7 +1081,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim-60 {
   -webkit-animation-name: animacao1-60;
-  -webkit-animation-delay: 0.236s;
+  -webkit-animation-delay: 0.413s;
   border-right: 2px solid black; }
 
 @-webkit-keyframes animacao1-60 {
@@ -1115,7 +1115,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-2 {
   -webkit-animation-name: animacao2-2;
-  -webkit-animation-delay: 0.004s; }
+  -webkit-animation-delay: 0.007s; }
 
 @-webkit-keyframes animacao2-2 {
   0% {
@@ -1131,7 +1131,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-3 {
   -webkit-animation-name: animacao2-3;
-  -webkit-animation-delay: 0.008s; }
+  -webkit-animation-delay: 0.014s; }
 
 @-webkit-keyframes animacao2-3 {
   0% {
@@ -1147,7 +1147,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-4 {
   -webkit-animation-name: animacao2-4;
-  -webkit-animation-delay: 0.012s; }
+  -webkit-animation-delay: 0.021s; }
 
 @-webkit-keyframes animacao2-4 {
   0% {
@@ -1163,7 +1163,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-5 {
   -webkit-animation-name: animacao2-5;
-  -webkit-animation-delay: 0.016s; }
+  -webkit-animation-delay: 0.028s; }
 
 @-webkit-keyframes animacao2-5 {
   0% {
@@ -1179,7 +1179,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-6 {
   -webkit-animation-name: animacao2-6;
-  -webkit-animation-delay: 0.02s; }
+  -webkit-animation-delay: 0.035s; }
 
 @-webkit-keyframes animacao2-6 {
   0% {
@@ -1195,7 +1195,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-7 {
   -webkit-animation-name: animacao2-7;
-  -webkit-animation-delay: 0.024s; }
+  -webkit-animation-delay: 0.042s; }
 
 @-webkit-keyframes animacao2-7 {
   0% {
@@ -1211,7 +1211,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-8 {
   -webkit-animation-name: animacao2-8;
-  -webkit-animation-delay: 0.028s; }
+  -webkit-animation-delay: 0.049s; }
 
 @-webkit-keyframes animacao2-8 {
   0% {
@@ -1227,7 +1227,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-9 {
   -webkit-animation-name: animacao2-9;
-  -webkit-animation-delay: 0.032s; }
+  -webkit-animation-delay: 0.056s; }
 
 @-webkit-keyframes animacao2-9 {
   0% {
@@ -1243,7 +1243,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-10 {
   -webkit-animation-name: animacao2-10;
-  -webkit-animation-delay: 0.036s; }
+  -webkit-animation-delay: 0.063s; }
 
 @-webkit-keyframes animacao2-10 {
   0% {
@@ -1259,7 +1259,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-11 {
   -webkit-animation-name: animacao2-11;
-  -webkit-animation-delay: 0.04s; }
+  -webkit-animation-delay: 0.07s; }
 
 @-webkit-keyframes animacao2-11 {
   0% {
@@ -1275,7 +1275,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-12 {
   -webkit-animation-name: animacao2-12;
-  -webkit-animation-delay: 0.044s; }
+  -webkit-animation-delay: 0.077s; }
 
 @-webkit-keyframes animacao2-12 {
   0% {
@@ -1291,7 +1291,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-13 {
   -webkit-animation-name: animacao2-13;
-  -webkit-animation-delay: 0.048s; }
+  -webkit-animation-delay: 0.084s; }
 
 @-webkit-keyframes animacao2-13 {
   0% {
@@ -1307,7 +1307,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-14 {
   -webkit-animation-name: animacao2-14;
-  -webkit-animation-delay: 0.052s; }
+  -webkit-animation-delay: 0.091s; }
 
 @-webkit-keyframes animacao2-14 {
   0% {
@@ -1323,7 +1323,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-15 {
   -webkit-animation-name: animacao2-15;
-  -webkit-animation-delay: 0.056s; }
+  -webkit-animation-delay: 0.098s; }
 
 @-webkit-keyframes animacao2-15 {
   0% {
@@ -1339,7 +1339,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-16 {
   -webkit-animation-name: animacao2-16;
-  -webkit-animation-delay: 0.06s; }
+  -webkit-animation-delay: 0.105s; }
 
 @-webkit-keyframes animacao2-16 {
   0% {
@@ -1355,7 +1355,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-17 {
   -webkit-animation-name: animacao2-17;
-  -webkit-animation-delay: 0.064s; }
+  -webkit-animation-delay: 0.112s; }
 
 @-webkit-keyframes animacao2-17 {
   0% {
@@ -1371,7 +1371,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-18 {
   -webkit-animation-name: animacao2-18;
-  -webkit-animation-delay: 0.068s; }
+  -webkit-animation-delay: 0.119s; }
 
 @-webkit-keyframes animacao2-18 {
   0% {
@@ -1387,7 +1387,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-19 {
   -webkit-animation-name: animacao2-19;
-  -webkit-animation-delay: 0.072s; }
+  -webkit-animation-delay: 0.126s; }
 
 @-webkit-keyframes animacao2-19 {
   0% {
@@ -1403,7 +1403,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-20 {
   -webkit-animation-name: animacao2-20;
-  -webkit-animation-delay: 0.076s; }
+  -webkit-animation-delay: 0.133s; }
 
 @-webkit-keyframes animacao2-20 {
   0% {
@@ -1419,7 +1419,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-21 {
   -webkit-animation-name: animacao2-21;
-  -webkit-animation-delay: 0.08s; }
+  -webkit-animation-delay: 0.14s; }
 
 @-webkit-keyframes animacao2-21 {
   0% {
@@ -1435,7 +1435,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-22 {
   -webkit-animation-name: animacao2-22;
-  -webkit-animation-delay: 0.084s; }
+  -webkit-animation-delay: 0.147s; }
 
 @-webkit-keyframes animacao2-22 {
   0% {
@@ -1451,7 +1451,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-23 {
   -webkit-animation-name: animacao2-23;
-  -webkit-animation-delay: 0.088s; }
+  -webkit-animation-delay: 0.154s; }
 
 @-webkit-keyframes animacao2-23 {
   0% {
@@ -1467,7 +1467,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-24 {
   -webkit-animation-name: animacao2-24;
-  -webkit-animation-delay: 0.092s; }
+  -webkit-animation-delay: 0.161s; }
 
 @-webkit-keyframes animacao2-24 {
   0% {
@@ -1483,7 +1483,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-25 {
   -webkit-animation-name: animacao2-25;
-  -webkit-animation-delay: 0.096s; }
+  -webkit-animation-delay: 0.168s; }
 
 @-webkit-keyframes animacao2-25 {
   0% {
@@ -1499,7 +1499,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-26 {
   -webkit-animation-name: animacao2-26;
-  -webkit-animation-delay: 0.1s; }
+  -webkit-animation-delay: 0.175s; }
 
 @-webkit-keyframes animacao2-26 {
   0% {
@@ -1515,7 +1515,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-27 {
   -webkit-animation-name: animacao2-27;
-  -webkit-animation-delay: 0.104s; }
+  -webkit-animation-delay: 0.182s; }
 
 @-webkit-keyframes animacao2-27 {
   0% {
@@ -1531,7 +1531,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-28 {
   -webkit-animation-name: animacao2-28;
-  -webkit-animation-delay: 0.108s; }
+  -webkit-animation-delay: 0.189s; }
 
 @-webkit-keyframes animacao2-28 {
   0% {
@@ -1547,7 +1547,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-29 {
   -webkit-animation-name: animacao2-29;
-  -webkit-animation-delay: 0.112s; }
+  -webkit-animation-delay: 0.196s; }
 
 @-webkit-keyframes animacao2-29 {
   0% {
@@ -1563,7 +1563,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-30 {
   -webkit-animation-name: animacao2-30;
-  -webkit-animation-delay: 0.116s; }
+  -webkit-animation-delay: 0.203s; }
 
 @-webkit-keyframes animacao2-30 {
   0% {
@@ -1579,7 +1579,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-31 {
   -webkit-animation-name: animacao2-31;
-  -webkit-animation-delay: 0.12s; }
+  -webkit-animation-delay: 0.21s; }
 
 @-webkit-keyframes animacao2-31 {
   0% {
@@ -1595,7 +1595,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-32 {
   -webkit-animation-name: animacao2-32;
-  -webkit-animation-delay: 0.124s; }
+  -webkit-animation-delay: 0.217s; }
 
 @-webkit-keyframes animacao2-32 {
   0% {
@@ -1611,7 +1611,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-33 {
   -webkit-animation-name: animacao2-33;
-  -webkit-animation-delay: 0.128s; }
+  -webkit-animation-delay: 0.224s; }
 
 @-webkit-keyframes animacao2-33 {
   0% {
@@ -1627,7 +1627,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-34 {
   -webkit-animation-name: animacao2-34;
-  -webkit-animation-delay: 0.132s; }
+  -webkit-animation-delay: 0.231s; }
 
 @-webkit-keyframes animacao2-34 {
   0% {
@@ -1643,7 +1643,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-35 {
   -webkit-animation-name: animacao2-35;
-  -webkit-animation-delay: 0.136s; }
+  -webkit-animation-delay: 0.238s; }
 
 @-webkit-keyframes animacao2-35 {
   0% {
@@ -1659,7 +1659,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-36 {
   -webkit-animation-name: animacao2-36;
-  -webkit-animation-delay: 0.14s; }
+  -webkit-animation-delay: 0.245s; }
 
 @-webkit-keyframes animacao2-36 {
   0% {
@@ -1675,7 +1675,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-37 {
   -webkit-animation-name: animacao2-37;
-  -webkit-animation-delay: 0.144s; }
+  -webkit-animation-delay: 0.252s; }
 
 @-webkit-keyframes animacao2-37 {
   0% {
@@ -1691,7 +1691,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-38 {
   -webkit-animation-name: animacao2-38;
-  -webkit-animation-delay: 0.148s; }
+  -webkit-animation-delay: 0.259s; }
 
 @-webkit-keyframes animacao2-38 {
   0% {
@@ -1707,7 +1707,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-39 {
   -webkit-animation-name: animacao2-39;
-  -webkit-animation-delay: 0.152s; }
+  -webkit-animation-delay: 0.266s; }
 
 @-webkit-keyframes animacao2-39 {
   0% {
@@ -1723,7 +1723,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-40 {
   -webkit-animation-name: animacao2-40;
-  -webkit-animation-delay: 0.156s; }
+  -webkit-animation-delay: 0.273s; }
 
 @-webkit-keyframes animacao2-40 {
   0% {
@@ -1739,7 +1739,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-41 {
   -webkit-animation-name: animacao2-41;
-  -webkit-animation-delay: 0.16s; }
+  -webkit-animation-delay: 0.28s; }
 
 @-webkit-keyframes animacao2-41 {
   0% {
@@ -1755,7 +1755,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-42 {
   -webkit-animation-name: animacao2-42;
-  -webkit-animation-delay: 0.164s; }
+  -webkit-animation-delay: 0.287s; }
 
 @-webkit-keyframes animacao2-42 {
   0% {
@@ -1771,7 +1771,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-43 {
   -webkit-animation-name: animacao2-43;
-  -webkit-animation-delay: 0.168s; }
+  -webkit-animation-delay: 0.294s; }
 
 @-webkit-keyframes animacao2-43 {
   0% {
@@ -1787,7 +1787,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-44 {
   -webkit-animation-name: animacao2-44;
-  -webkit-animation-delay: 0.172s; }
+  -webkit-animation-delay: 0.301s; }
 
 @-webkit-keyframes animacao2-44 {
   0% {
@@ -1803,7 +1803,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-45 {
   -webkit-animation-name: animacao2-45;
-  -webkit-animation-delay: 0.176s; }
+  -webkit-animation-delay: 0.308s; }
 
 @-webkit-keyframes animacao2-45 {
   0% {
@@ -1819,7 +1819,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-46 {
   -webkit-animation-name: animacao2-46;
-  -webkit-animation-delay: 0.18s; }
+  -webkit-animation-delay: 0.315s; }
 
 @-webkit-keyframes animacao2-46 {
   0% {
@@ -1835,7 +1835,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-47 {
   -webkit-animation-name: animacao2-47;
-  -webkit-animation-delay: 0.184s; }
+  -webkit-animation-delay: 0.322s; }
 
 @-webkit-keyframes animacao2-47 {
   0% {
@@ -1851,7 +1851,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-48 {
   -webkit-animation-name: animacao2-48;
-  -webkit-animation-delay: 0.188s; }
+  -webkit-animation-delay: 0.329s; }
 
 @-webkit-keyframes animacao2-48 {
   0% {
@@ -1867,7 +1867,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-49 {
   -webkit-animation-name: animacao2-49;
-  -webkit-animation-delay: 0.192s; }
+  -webkit-animation-delay: 0.336s; }
 
 @-webkit-keyframes animacao2-49 {
   0% {
@@ -1883,7 +1883,7 @@ h2 {
     -webkit-animation-timing-function: cubic-bezier(0.23, 0.24, 0.63, 0.69); } }
 .anim2-50 {
   -webkit-animation-name: animacao2-50;
-  -webkit-animation-delay: 0.196s; }
+  -webkit-animation-delay: 0.343s; }
 
 @-webkit-keyframes animacao2-50 {
   0% {
