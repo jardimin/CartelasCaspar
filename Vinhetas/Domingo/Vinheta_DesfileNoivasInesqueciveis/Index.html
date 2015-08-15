@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>CG Demo</title>
+    <script type="text/javascript">       
+      //            Data sent from CasparCG Client as templateData
+      //            is pushed into corresponding HTML id element
+      //         
+      //            Usage:
+      //            insert a script reference in the HTML template header.
+      //            Make sure that the id that you refer to is the innermost tag.
+      //            Everything within that tag id will be replaced by the value sent from CasparCG
+      //            
+      //           put together by Tomas Linden
+      //         
+      //         
+      //            Structure of data sent from CasparCG:
+      //            <templateData>
+      //               <componentData id="#idCaspar#">
+      //                  <data id="text" value="#valCaspar#" />
+      //               </componentData>
+      //               :
+      //               :
+      //               <componentData id="#idCaspar#">
+      //                  <data id="text" value="#valCaspar#" />
+      //              </componentData>
+      //            </templateData>
+      //         
+
+      // Global variable for data from CasparCG
+      var dataCaspar = {};
+
+      // Replace characters that could become a problem if left as is
+      function escapeHtml(unsafe) {
+        return unsafe.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+      }
+
+      // Parse templateData into an XML object
+      function parseCaspar(str)   {
+        var xmlDoc;
+        if (window.DOMParser)   {
+           parser=new DOMParser();
+           xmlDoc=parser.parseFromString(str,"text/xml");
+        }
+        dataCaspar = XML2JSON(xmlDoc.documentElement.childNodes);
+      }
+
+      // Make the XML templateData message into a more simple key:value object
+      function XML2JSON(node)   {
+        var data = {};   // resulting object
+        for (k=0;k<node.length;k++)   {
+           var idCaspar = node[k].getAttribute("id");
+           var valCaspar = node[k].childNodes[0].getAttribute("value");
+           if ( idCaspar != undefined && valCaspar != undefined)   { data[idCaspar] = valCaspar; };
+        }
+        return data;
+      }
+
+      // Main function to insert data
+      function dataInsert(dataCaspar)   {
+        for (var idCaspar in dataCaspar) {
+           var idTemplate = document.getElementById(idCaspar);
+           if (idTemplate != undefined)   { idTemplate.innerHTML = escapeHtml(dataCaspar[idCaspar]); }
+        }
+      }
+
+      // insert data from CasparCg client when activated
+      function play(str) {
+        parseCaspar(str);   // Parse templateData into an XML object
+        dataInsert(dataCaspar);   // Insert data
+      }
+
+      // Call for a stop from CasparCG client
+      function stop () {
+       // insert here
+      }
+
+      // Call for a update of data from CasparCG client
+      function update(str) {
+        parseCaspar(str);   // Parse templateData into an XML object
+        dataInsert(dataCaspar);   // Insert data
+      }
+    </script>
+    <link rel="stylesheet" href="assets/style.css">
+    <style type="text/css"></style>
+  </head>
+  <body>
+    <div class="anim-1"></div>
+    <div class="anim-2"></div>
+    <div class="anim-3"></div>
+    <div class="anim-4"></div>
+    <div class="anim-5"></div>
+    <div class="anim-6"></div>
+    <div class="anim-7"></div>
+    <div class="anim-8"></div>
+    <div class="anim-9"></div>
+    <div class="anim-10"></div>
+    <h1 id="f0">As 20h20</h1>
+    <div class="atracao">
+      <h2 id="f1">Desfile</h2> 
+      <h3 id="f2">“Noivas Inesquecíveis”</h3>
+      <span>com</span>
+      <p id="f3">criações de Blanco & Chic, Glorinha Pires Rebelo, Stella Fischer, Stephanie Cachapuz e apresentação da Banda Jack ‘N’ Coke</p>
+    </div>
+    <div class="imagem">
+      <img src="assets/imagem.png">
+    </div>
+    <script type="text/javascript"></script>
+  </body>
+</html>
