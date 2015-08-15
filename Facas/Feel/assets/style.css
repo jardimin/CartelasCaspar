@@ -15,7 +15,7 @@ h1 {
   opacity: 0;
   text-shadow: 3px 3px 10px #4d4d4d;
   color: white;
-  left: 480px;
+  left: 670px;
   -webkit-animation-name: chamada; }
 
 @-webkit-keyframes chamada {
