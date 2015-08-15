@@ -1,0 +1,194 @@
+$cor1: #4EB9BE
+$cor2: white
+$cor3: #ee6b97
+$border1: 2px solid darken( $cor1, 40% )
+$border2: 2px solid darken( $cor3, 20% )
+$num: 100
+$width: 100% / $num
+
+.duration 
+  -webkit-animation-duration: 12s
+  position: absolute
+
+body 
+  width: 1920px
+  height: 1080px
+  margin: 0
+  padding: 0
+  overflow: hidden
+
+h1
+  @extend .duration
+  font-size: 3em
+  // font-weight: 100
+  bottom: 78px
+  opacity: 0
+  text-shadow: 3px 3px 10px lighten(black, 30%) 
+  color: lighten($cor2, 5%)
+  // -webkit-text-stroke-color: lighten($cor2, 5%)
+  // -webkit-text-stroke-width: 1px
+  left: 480px
+  -webkit-animation-name: chamada
+
+@-webkit-keyframes chamada
+  0%
+    text-shadow: 3px 3px 10px lighten(black, 40%) 
+    -webkit-animation-timing-function: linear
+    opacity: 0
+  6%
+    opacity: 0
+    -webkit-animation-timing-function: linear
+  14%
+    opacity: 1
+    -webkit-animation-timing-function: linear
+  90%
+    opacity: 1
+    -webkit-animation-timing-function: linear
+  95%
+    opacity: 0
+  100%
+    text-shadow: 0px 0px 10px lighten(black, 40%) 
+    opacity: 0
+
+h2
+  @extend .duration
+  font-size: 2em
+  font-weight: 100
+  bottom: 0px
+  opacity: 0
+  text-shadow: 3px 3px 10px lighten(black, 30%) 
+  color: lighten($cor2, 5%)
+  // -webkit-text-stroke-color: lighten($cor2, 5%)
+  // -webkit-text-stroke-width: 1px
+  left: 625px
+  -webkit-animation-name: chamada2
+
+@-webkit-keyframes chamada2
+  0%
+    text-shadow: 3px 3px 10px lighten(black, 40%) 
+    -webkit-animation-timing-function: linear
+    opacity: 0
+  6%
+    opacity: 0
+    -webkit-animation-timing-function: linear
+  14%
+    opacity: 1
+    -webkit-animation-timing-function: linear
+  90%
+    opacity: 1
+    -webkit-animation-timing-function: linear
+  95%
+    opacity: 0
+  100%
+    text-shadow: 0px 0px 10px lighten(black, 40%) 
+    opacity: 0
+
+.faixa 
+  @extend .duration
+  border-top: $border1
+  border-bottom: $border1
+  background-color: $cor1
+  width: $width
+  height: 15%
+  bottom: 3%
+  left: 100%
+
+.faixinha 
+  @extend .duration
+  border-top: $border2
+  background-color: desaturate( $cor3, 25% )
+  width: $width
+  height: 7%
+  bottom: 0%
+  right: 100%
+
+.imagem
+  overflow: hidden
+  position: absolute
+  left: 10px
+  bottom: 0px
+  &.back
+    @extend .duration
+    -webkit-animation-name: animagem
+    -webkit-animation-delay: .1s
+    transform: scale(0)
+    opacity: 0
+    background-color: $cor2
+    width: 270px
+    height: 270px
+    border-radius: 135px
+  &.front
+    @extend .duration
+    box-shadow: 0 0 30px gray
+    border-radius: 125px
+    width: 250px
+    height: 250px
+    -webkit-animation-name: animagem
+    transform: scale(0)
+    opacity: 0
+    left: 15px
+    bottom: 5px
+  img
+    height: 100%
+
+@-webkit-keyframes animagem
+  0%
+    -webkit-transform: scale(0)
+    opacity: 0
+  2.99%
+    -webkit-transform: scale(0)
+    opacity: 0
+    -webkit-animation-timing-function: cubic-bezier(.17,.29,.62,1.24)
+  3%
+    opacity: 1
+  12%
+    -webkit-transform: scale(2)
+  90%
+    -webkit-transform: scale(2)
+    opacity: 1
+    -webkit-animation-timing-function: cubic-bezier(.36,.06,1,.67)
+  98.99%
+    opacity: 1
+  99%
+    opacity: 0
+    -webkit-transform: scale(0)
+  100%
+    -webkit-transform: scale(0)
+
+@for $n from 1 through $num
+  .anim-#{$n}
+    @extend .faixa
+    -webkit-animation-name: animacao1-#{$n}
+    -webkit-animation-delay: (.004s * $n ) - .004s
+
+  @-webkit-keyframes animacao1-#{$n}
+    0%
+      left: (100% - $width) + ($width * $n)
+      -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+    2%
+      left: -((0% + $width) - ($width * $n))
+    98%
+      left: -((0% + $width) - ($width * $n))
+      -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+    100%
+      left: -((50% - $width) + ($width * $n))
+      -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
+
+@for $n from 1 through $num
+  .anim2-#{$n}
+    @extend .faixinha
+    -webkit-animation-name: animacao2-#{$n}
+    -webkit-animation-delay: (.004s * $n ) - .004s
+
+  @-webkit-keyframes animacao2-#{$n}
+    0%
+      right: (100% - $width) + ($width * $n)
+      -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+    2%
+      right: -((0% + $width) - ($width * $n))
+    98%
+      right: -((0% + $width) - ($width * $n))
+      -webkit-animation-timing-function: cubic-bezier(.51,.22,.62,.86)
+    100%
+      right: -((50% - $width) + ($width * $n))
+      -webkit-animation-timing-function: cubic-bezier(.23,.24,.63,.69)
