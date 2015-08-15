@@ -2,21 +2,21 @@
 <html>
   <head>
     <title>CG Demo</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" href="assets/style.css">
     <style type="text/css"></style>
-    <script type="text/javascript">
+    <script type="text/javascript">       
       //            Data sent from CasparCG Client as templateData
       //            is pushed into corresponding HTML id element
-      //
+      //         
       //            Usage:
       //            insert a script reference in the HTML template header.
       //            Make sure that the id that you refer to is the innermost tag.
       //            Everything within that tag id will be replaced by the value sent from CasparCG
-      //
+      //            
       //           put together by Tomas Linden
-      //
-      //
+      //         
+      //         
       //            Structure of data sent from CasparCG:
       //            <templateData>
       //               <componentData id="#idCaspar#">
@@ -28,52 +28,60 @@
       //                  <data id="text" value="#valCaspar#" />
       //              </componentData>
       //            </templateData>
-      //
+      //         
+
       // Global variable for data from CasparCG
       var dataCaspar = {};
+
       // Replace characters that could become a problem if left as is
       function escapeHtml(unsafe) {
-      return unsafe.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+        return unsafe.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#039;");
       }
+
       // Parse templateData into an XML object
       function parseCaspar(str)   {
-      var xmlDoc;
-      if (window.DOMParser)   {
-      parser=new DOMParser();
-      xmlDoc=parser.parseFromString(str,"text/xml");
+        var xmlDoc;
+        if (window.DOMParser)   {
+           parser=new DOMParser();
+           xmlDoc=parser.parseFromString(str,"text/xml");
+        }
+        dataCaspar = XML2JSON(xmlDoc.documentElement.childNodes);
       }
-      dataCaspar = XML2JSON(xmlDoc.documentElement.childNodes);
-      }
+
       // Make the XML templateData message into a more simple key:value object
       function XML2JSON(node)   {
-      var data = {};   // resulting object
-      for (k=0;k<node.length;k++)   {
-      var idCaspar = node[k].getAttribute("id");
-      var valCaspar = node[k].childNodes[0].getAttribute("value");
-      if ( idCaspar != undefined && valCaspar != undefined)   { data[idCaspar] = valCaspar; };
+        var data = {};   // resulting object
+        for (k=0;k<node.length;k++)   {
+           var idCaspar = node[k].getAttribute("id");
+           var valCaspar = node[k].childNodes[0].getAttribute("value");
+           if ( idCaspar != undefined && valCaspar != undefined)   { data[idCaspar] = valCaspar; };
+        }
+        return data;
       }
-      return data;
-      }
+
       // Main function to insert data
       function dataInsert(dataCaspar)   {
-      for (var idCaspar in dataCaspar) {
-      var idTemplate = document.getElementById(idCaspar);
-      if (idTemplate != undefined)   { idTemplate.innerHTML = escapeHtml(dataCaspar[idCaspar]); }
+        for (var idCaspar in dataCaspar) {
+           var idTemplate = document.getElementById(idCaspar);
+           if (idTemplate != undefined)   { idTemplate.innerHTML = escapeHtml(dataCaspar[idCaspar]); }
+        }
       }
-      }
+
       // insert data from CasparCg client when activated
       function play(str) {
-      parseCaspar(str);   // Parse templateData into an XML object
-      dataInsert(dataCaspar);   // Insert data
+        parseCaspar(str);   // Parse templateData into an XML object
+        dataInsert(dataCaspar);   // Insert data
       }
+
       // Call for a stop from CasparCG client
       function stop () {
-      // insert here
+       // insert here
       }
+
       // Call for a update of data from CasparCG client
       function update(str) {
-      parseCaspar(str);   // Parse templateData into an XML object
-      dataInsert(dataCaspar);   // Insert data
+        parseCaspar(str);   // Parse templateData into an XML object
+        dataInsert(dataCaspar);   // Insert data
       }
     </script>
   </head>
@@ -137,16 +145,6 @@
     <div class="anim-57"></div>
     <div class="anim-58"></div>
     <div class="anim-59"></div>
-    <div class="anim-60"></div>
-    <div class="anim-61"></div>
-    <div class="anim-62"></div>
-    <div class="anim-63"></div>
-    <div class="anim-64"></div>
-    <div class="anim-65"></div>
-    <div class="anim-66"></div>
-    <div class="anim-67"></div>
-    <div class="anim-68"></div>
-    <div class="anim-69"></div>
     <div class="anim-70"></div>
     <div class="anim-71"></div>
     <div class="anim-72"></div>
@@ -157,27 +155,7 @@
     <div class="anim-77"></div>
     <div class="anim-78"></div>
     <div class="anim-79"></div>
-    <div class="anim-80"></div>
-    <div class="anim-81"></div>
-    <div class="anim-82"></div>
-    <div class="anim-83"></div>
-    <div class="anim-84"></div>
-    <div class="anim-85"></div>
-    <div class="anim-86"></div>
-    <div class="anim-87"></div>
-    <div class="anim-88"></div>
-    <div class="anim-89"></div>
-    <div class="anim-90"></div>
-    <div class="anim-91"></div>
-    <div class="anim-92"></div>
-    <div class="anim-93"></div>
-    <div class="anim-94"></div>
-    <div class="anim-95"></div>
-    <div class="anim-96"></div>
-    <div class="anim-97"></div>
-    <div class="anim-98"></div>
-    <div class="anim-99"></div>
-    <div class="anim-100"></div>
+    <div class="anim-70"></div>
     <div class="anim2-1"></div>
     <div class="anim2-2"></div>
     <div class="anim2-3"></div>
@@ -228,50 +206,13 @@
     <div class="anim2-48"></div>
     <div class="anim2-49"></div>
     <div class="anim2-50"></div>
-    <div class="anim2-51"></div>
-    <div class="anim2-52"></div>
-    <div class="anim2-53"></div>
-    <div class="anim2-54"></div>
-    <div class="anim2-55"></div>
-    <div class="anim2-56"></div>
-    <div class="anim2-57"></div>
-    <div class="anim2-58"></div>
-    <div class="anim2-59"></div>
-    <div class="anim2-60"></div>
-    <div class="anim2-61"></div>
-    <div class="anim2-62"></div>
-    <div class="anim2-63"></div>
-    <div class="anim2-64"></div>
-    <div class="anim2-65"></div>
-    <div class="anim2-66"></div>
-    <div class="anim2-67"></div>
-    <div class="anim2-68"></div>
-    <div class="anim2-69"></div>
-    <div class="anim2-70"></div>
-    <div class="anim2-71"></div>
-    <div class="anim2-72"></div>
-    <div class="anim2-73"></div>
-    <div class="anim2-74"></div>
-    <div class="anim2-75"></div>
-    <div class="anim2-76"></div>
-    <div class="anim2-77"></div>
-    <div class="anim2-78"></div>
-    <div class="anim2-79"></div>
-    <div class="anim2-80"></div>
-    <div class="anim2-81"></div>
-    <div class="anim2-82"></div>
-    <div class="anim2-83"></div>
-    <div class="anim2-84"></div>
-    <div class="anim2-85"></div>
-    <div class="anim2-86"></div>
-    <div class="anim2-87"></div>
-    <div class="anim2-88"></div>
-    <div class="anim2-89"></div>
-    <div class="anim2-90"></div>
     <h1 id="f0">Colin Cowie</h1>
     <h2 id="f1">Pica das galáxias</h2>
-    <div class="imagem back"></div>
-    <div class="imagem front"><img src="assets/imagem.png"></div>
+    <div class="imagem back">
+    </div>
+    <div class="imagem front">
+      <img src="assets/imagem.png">
+    </div>
     <script type="text/javascript"></script>
   </body>
 </html>
