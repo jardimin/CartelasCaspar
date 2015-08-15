@@ -21,7 +21,7 @@ body
 h1
   @extend .duration
   font-size: 4em
-  bottom: 75px
+  bottom: 90px
   opacity: 0
   text-shadow: 3px 3px 10px lighten(black, 30%) 
   color: lighten($cor2, 5%)
@@ -54,7 +54,7 @@ h1
 
 h2
   @extend .duration
-  font-size: 2em
+  font-size: 2.5em
   bottom: 20px
   opacity: 0
   text-shadow: 3px 3px 10px lighten(black, 30%) 
@@ -161,7 +161,7 @@ h2
   .anim-#{$n}
     @extend .faixa
     -webkit-animation-name: animacao1-#{$n}
-    -webkit-animation-delay: (.009s * $n ) - .009s
+    -webkit-animation-delay: (.004s * $n ) - .004s
     @if $n == $num
       border-right: $border1
 
@@ -182,7 +182,7 @@ h2
   .anim2-#{$n}
     @extend .faixinha
     -webkit-animation-name: animacao2-#{$n}
-    -webkit-animation-delay: (.009s * $n ) - .009s
+    -webkit-animation-delay: (.004s * $n ) - .004s
     @if $n == 1
       border-right: $border2
 
