@@ -70,8 +70,8 @@ h2 {
     left: 300px;
     opacity: 0; } }
 .faixa, .anim-1, .anim-2, .anim-3, .anim-4, .anim-5, .anim-6, .anim-7, .anim-8, .anim-9, .anim-10, .anim-11, .anim-12, .anim-13, .anim-14, .anim-15, .anim-16, .anim-17, .anim-18, .anim-19, .anim-20, .anim-21, .anim-22, .anim-23, .anim-24, .anim-25, .anim-26, .anim-27, .anim-28, .anim-29, .anim-30, .anim-31, .anim-32, .anim-33, .anim-34, .anim-35, .anim-36, .anim-37, .anim-38, .anim-39, .anim-40, .anim-41, .anim-42, .anim-43, .anim-44, .anim-45, .anim-46, .anim-47, .anim-48, .anim-49, .anim-50, .anim-51, .anim-52, .anim-53, .anim-54, .anim-55, .anim-56, .anim-57, .anim-58, .anim-59, .anim-60 {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid #112d2f;
+  border-bottom: 2px solid #112d2f;
   background-color: #4EB9BE;
   width: 1%;
   height: 15%;
@@ -79,9 +79,9 @@ h2 {
   left: 100%; }
 
 .faixinha, .anim2-1, .anim2-2, .anim2-3, .anim2-4, .anim2-5, .anim2-6, .anim2-7, .anim2-8, .anim2-9, .anim2-10, .anim2-11, .anim2-12, .anim2-13, .anim2-14, .anim2-15, .anim2-16, .anim2-17, .anim2-18, .anim2-19, .anim2-20, .anim2-21, .anim2-22, .anim2-23, .anim2-24, .anim2-25, .anim2-26, .anim2-27, .anim2-28, .anim2-29, .anim2-30, .anim2-31, .anim2-32, .anim2-33, .anim2-34, .anim2-35, .anim2-36, .anim2-37, .anim2-38, .anim2-39, .anim2-40, .anim2-41, .anim2-42, .anim2-43, .anim2-44, .anim2-45, .anim2-46, .anim2-47, .anim2-48, .anim2-49, .anim2-50 {
-  border-bottom: 2px solid #2d7679;
-  border-top: 2px solid #2d7679;
-  background-color: #6c9da0;
+  border-bottom: 2px solid #da195a;
+  border-top: 2px solid #da195a;
+  background-color: #d9809e;
   width: 1%;
   height: 9%;
   bottom: 2%;
@@ -97,7 +97,7 @@ h2 {
     -webkit-animation-delay: 0.1s;
     transform: scale(0);
     opacity: 0;
-    background-color: black;
+    background-color: #3a9a9f;
     width: 260px;
     height: 260px;
     border-radius: 130px; }
@@ -1082,7 +1082,7 @@ h2 {
 .anim-60 {
   -webkit-animation-name: animacao1-60;
   -webkit-animation-delay: 0.413s;
-  border-right: 2px solid black; }
+  border-right: 2px solid #112d2f; }
 
 @-webkit-keyframes animacao1-60 {
   0% {
@@ -1099,7 +1099,7 @@ h2 {
 .anim2-1 {
   -webkit-animation-name: animacao2-1;
   -webkit-animation-delay: 0s;
-  border-right: 2px solid #2d7679; }
+  border-right: 2px solid #da195a; }
 
 @-webkit-keyframes animacao2-1 {
   0% {
