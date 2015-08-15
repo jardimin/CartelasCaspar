@@ -1,4 +1,4 @@
-.duration, h1, h2, .faixa, .anim-1, .anim-2, .anim-3, .anim-4, .anim-5, .anim-6, .anim-7, .anim-8, .anim-9, .anim-10, .faixinha, .anim-11, .anim-12, .anim-13, .anim-14, .anim-15, .anim-16, .anim-17, .anim-18, .anim-19, .imagem {
+.duration, h1, h2, .faixa, .anim-1, .anim-2, .anim-3, .anim-4, .anim-5, .anim-6, .anim-7, .anim-8, .anim-9, .anim-10, .faixinha, .anim-11, .anim-12, .anim-13, .anim-14, .anim-15, .anim-16, .anim-17, .anim-18, .anim-19, .imagem.back, .imagem.front {
   -webkit-animation-duration: 6s;
   position: absolute; }
 
@@ -91,15 +91,25 @@ h2 {
   overflow: hidden;
   position: absolute;
   left: 10px;
-  bottom: 0px;
-  border-radius: 125px;
-  width: 250px;
-  height: 250px;
-  -webkit-animation-name: animagem;
-  transform: scale(0);
-  opacity: 1;
-  left: 15px;
-  bottom: 5px; }
+  bottom: 0px; }
+  .imagem.back {
+    -webkit-animation-name: animagem;
+    -webkit-animation-delay: 0.1s;
+    transform: scale(0);
+    opacity: 1;
+    background-color: black;
+    width: 260px;
+    height: 260px;
+    border-radius: 130px; }
+  .imagem.front {
+    border-radius: 125px;
+    width: 250px;
+    height: 250px;
+    -webkit-animation-name: animagem;
+    transform: scale(0);
+    opacity: 1;
+    left: 15px;
+    bottom: 5px; }
   .imagem img {
     height: 100%; }
 
