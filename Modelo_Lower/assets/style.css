@@ -105,18 +105,26 @@ h2 {
 
 @-webkit-keyframes animagem {
   0% {
-    transform: scale(0);
+    -webkit-transform: scale(0);
+    opacity: 0; }
+  15.99% {
+    -webkit-transform: scale(0);
+    opacity: 0;
     -webkit-animation-timing-function: cubic-bezier(0.17, 0.29, 0.62, 1.24); }
-  25% {
-    transform: scale(1); }
-  75% {
-    transform: scale(1);
-    -webkit-animation-timing-function: cubic-bezier(0.36, 0.06, 1, 0.67); }
-  90% {
-    transform: scale(0);
+  16% {
     opacity: 1; }
+  25% {
+    -webkit-transform: scale(1); }
+  80% {
+    -webkit-transform: scale(1);
+    -webkit-animation-timing-function: cubic-bezier(0.36, 0.06, 1, 0.67); }
+  89.99% {
+    opacity: 1; }
+  90% {
+    opacity: 0;
+    -webkit-transform: scale(0); }
   100% {
-    transform: scale(0); } }
+    -webkit-transform: scale(0); } }
 .anim-1 {
   -webkit-animation-name: animacao1; }
 
