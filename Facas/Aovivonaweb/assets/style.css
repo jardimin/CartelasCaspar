@@ -10,12 +10,12 @@ body {
   overflow: hidden; }
 
 h1 {
-  font-size: 4em;
-  bottom: 50px;
+  font-size: 3em;
+  bottom: 78px;
   opacity: 0;
   text-shadow: 3px 3px 10px #4d4d4d;
   color: white;
-  left: 765px;
+  left: 480px;
   -webkit-animation-name: chamada; }
 
 @-webkit-keyframes chamada {
@@ -43,7 +43,7 @@ h2 {
   opacity: 0;
   text-shadow: 3px 3px 10px #4d4d4d;
   color: white;
-  left: 825px;
+  left: 625px;
   -webkit-animation-name: chamada2; }
 
 @-webkit-keyframes chamada2 {
@@ -66,8 +66,8 @@ h2 {
     text-shadow: 0px 0px 10px #666666;
     opacity: 0; } }
 .faixa, .anim-1, .anim-2, .anim-3, .anim-4, .anim-5, .anim-6, .anim-7, .anim-8, .anim-9, .anim-10, .anim-11, .anim-12, .anim-13, .anim-14, .anim-15, .anim-16, .anim-17, .anim-18, .anim-19, .anim-20, .anim-21, .anim-22, .anim-23, .anim-24, .anim-25, .anim-26, .anim-27, .anim-28, .anim-29, .anim-30, .anim-31, .anim-32, .anim-33, .anim-34, .anim-35, .anim-36, .anim-37, .anim-38, .anim-39, .anim-40, .anim-41, .anim-42, .anim-43, .anim-44, .anim-45, .anim-46, .anim-47, .anim-48, .anim-49, .anim-50, .anim-51, .anim-52, .anim-53, .anim-54, .anim-55, .anim-56, .anim-57, .anim-58, .anim-59, .anim-60, .anim-61, .anim-62, .anim-63, .anim-64, .anim-65, .anim-66, .anim-67, .anim-68, .anim-69, .anim-70, .anim-71, .anim-72, .anim-73, .anim-74, .anim-75, .anim-76, .anim-77, .anim-78, .anim-79, .anim-80, .anim-81, .anim-82, .anim-83, .anim-84, .anim-85, .anim-86, .anim-87, .anim-88, .anim-89, .anim-90, .anim-91, .anim-92, .anim-93, .anim-94, .anim-95, .anim-96, .anim-97, .anim-98, .anim-99, .anim-100 {
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  border-top: 2px solid #da195a;
+  border-bottom: 2px solid #da195a;
   background-color: #4EB9BE;
   width: 1%;
   height: 15%;
@@ -75,9 +75,8 @@ h2 {
   left: 100%; }
 
 .faixinha, .anim2-1, .anim2-2, .anim2-3, .anim2-4, .anim2-5, .anim2-6, .anim2-7, .anim2-8, .anim2-9, .anim2-10, .anim2-11, .anim2-12, .anim2-13, .anim2-14, .anim2-15, .anim2-16, .anim2-17, .anim2-18, .anim2-19, .anim2-20, .anim2-21, .anim2-22, .anim2-23, .anim2-24, .anim2-25, .anim2-26, .anim2-27, .anim2-28, .anim2-29, .anim2-30, .anim2-31, .anim2-32, .anim2-33, .anim2-34, .anim2-35, .anim2-36, .anim2-37, .anim2-38, .anim2-39, .anim2-40, .anim2-41, .anim2-42, .anim2-43, .anim2-44, .anim2-45, .anim2-46, .anim2-47, .anim2-48, .anim2-49, .anim2-50, .anim2-51, .anim2-52, .anim2-53, .anim2-54, .anim2-55, .anim2-56, .anim2-57, .anim2-58, .anim2-59, .anim2-60, .anim2-61, .anim2-62, .anim2-63, .anim2-64, .anim2-65, .anim2-66, .anim2-67, .anim2-68, .anim2-69, .anim2-70, .anim2-71, .anim2-72, .anim2-73, .anim2-74, .anim2-75, .anim2-76, .anim2-77, .anim2-78, .anim2-79, .anim2-80, .anim2-81, .anim2-82, .anim2-83, .anim2-84, .anim2-85, .anim2-86, .anim2-87, .anim2-88, .anim2-89, .anim2-90, .anim2-91, .anim2-92, .anim2-93, .anim2-94, .anim2-95, .anim2-96, .anim2-97, .anim2-98, .anim2-99, .anim2-100 {
-  border-bottom: 2px solid #2d7679;
-  border-top: 2px solid #2d7679;
-  background-color: #6c9da0;
+  border-top: 2px solid #da195a;
+  background-color: #d9809e;
   width: 1%;
   height: 7%;
   bottom: 0%;
@@ -93,11 +92,12 @@ h2 {
     -webkit-animation-delay: 0.1s;
     transform: scale(0);
     opacity: 0;
-    background-color: black;
-    width: 260px;
-    height: 260px;
-    border-radius: 130px; }
+    background-color: white;
+    width: 270px;
+    height: 270px;
+    border-radius: 135px; }
   .imagem.front {
+    box-shadow: 0 0 30px gray;
     border-radius: 125px;
     width: 250px;
     height: 250px;
